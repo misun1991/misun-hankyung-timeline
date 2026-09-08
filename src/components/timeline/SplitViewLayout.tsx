@@ -22,7 +22,8 @@ export const SplitViewLayout: React.FC<SplitViewLayoutProps> = ({ initialMode })
     viewMode,
     setViewMode,
     setSelectedClusterId,
-    activeCategory
+    activeCategory,
+    isLiveConnected
   } = useTimelineData();
 
   const currentMode = initialMode || viewMode;
@@ -111,6 +112,12 @@ export const SplitViewLayout: React.FC<SplitViewLayoutProps> = ({ initialMode })
                 <span>누적 주요 사건</span>
                 <span className="font-extrabold text-slate-900 text-sm">{totalEvents}건</span>
               </div>
+              {isLiveConnected && (
+                <div className="bg-emerald-50 border border-emerald-200 rounded-lg px-3 py-2 flex items-center gap-1.5 text-xs text-emerald-800 font-semibold shadow-2xs">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                  <span>한경 서버 실시간 연동</span>
+                </div>
+              )}
 
               {/* Grid Search */}
               <div className="relative w-48 sm:w-56">

@@ -24,7 +24,9 @@ interface TimelineContextType {
   sortDirection: 'desc' | 'asc';
   isInjectionModalOpen: boolean;
   toastMessage: string | null;
-  
+  isLiveConnected: boolean;
+  isLoadingLive: boolean;
+
   // Actions
   setSelectedClusterId: (id: string) => void;
   setActiveCategory: (cat: CategoryType) => void;
@@ -34,7 +36,8 @@ interface TimelineContextType {
   setSortDirection: (dir: 'desc' | 'asc') => void;
   setIsInjectionModalOpen: (open: boolean) => void;
   showToast: (msg: string) => void;
-  
+  refreshLiveTimeline: () => Promise<void>;
+
   // Data Manipulation
   injectJsonData: (payload: InjectionPayload) => { success: boolean; clusterId?: string; error?: string };
   approveClusterDraft: (clusterId: string, updatedSummary: string, newEvent: TimelineEvent) => void;
@@ -58,45 +61,9 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
   const [sortDirection, setSortDirection] = useState<'desc' | 'asc'>('desc');
   const [isInjectionModalOpen, setIsInjectionModalOpen] = useState<boolean>(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+  const [isLiveConnected, setIsLiveConnected] = useState<boolean>(false);
+  const [isLoadingLive, setIsLoadingLive] = useState<boolean>(false);
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
-
-  // Hydrate from LocalStorage
-  useEffect(() => {
-    try {
-      const storedClusters = localStorage.getItem(STORAGE_KEY_CLUSTERS);
-      const storedWorkflows = localStorage.getItem(STORAGE_KEY_WORKFLOWS);
-
-      if (storedClusters) {
-        const parsed = JSON.parse(storedClusters);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setClusters(parsed);
-          setSelectedClusterId(parsed[0].id);
-        }
-      }
-
-      if (storedWorkflows) {
-        const parsed = JSON.parse(storedWorkflows);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          setWorkflows(parsed);
-        }
-      }
-    } catch (err) {
-      console.error('Failed to load timeline data from LocalStorage:', err);
-    } finally {
-      setIsLoaded(true);
-    }
-  }, []);
-
-  // Save to LocalStorage
-  useEffect(() => {
-    if (!isLoaded) return;
-    try {
-      localStorage.setItem(STORAGE_KEY_CLUSTERS, JSON.stringify(clusters));
-      localStorage.setItem(STORAGE_KEY_WORKFLOWS, JSON.stringify(workflows));
-    } catch (err) {
-      console.error('Failed to save to LocalStorage:', err);
-    }
-  }, [clusters, workflows, isLoaded]);
 
   const showToast = useCallback((msg: string) => {
     setToastMessage(msg);
@@ -104,6 +71,55 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
       setToastMessage(prev => (prev === msg ? null : prev));
     }, 3500);
   }, []);
+
+  // Fetch Live Data from Next.js API route (/api/timeline -> apidev-core)
+  const fetchLiveTimeline = useCallback(async (isManual = false) => {
+    setIsLoadingLive(true);
+    try {
+      const res = await fetch('/api/timeline', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = await res.json();
+
+      if (json.success && Array.isArray(json.data) && json.data.length > 0) {
+        setClusters(json.data);
+        setIsLiveConnected(true);
+        setSelectedClusterId(prev => {
+          const match = json.data.some((c: ClusterTopic) => c.id === prev);
+          return match ? prev : json.data[0].id;
+        });
+
+        if (isManual) {
+          showToast(`✅ 한경 테스트 서버 실시간 이슈 ${json.data.length}건 동기화 완료!`);
+        }
+      } else {
+        throw new Error(json.error || '실시간 데이터를 불러올 수 없습니다.');
+      }
+    } catch (err: any) {
+      console.warn('Live API sync failed, maintaining cached/local data:', err);
+      if (isManual) {
+        showToast('⚠️ 실시간 서버 동기화 실패: 로컬 데이터를 유지합니다.');
+      }
+    } finally {
+      setIsLoadingLive(false);
+      setIsLoaded(true);
+    }
+  }, [showToast]);
+
+  // Initial load: Attempt live API first, fallback to LocalStorage if needed
+  useEffect(() => {
+    fetchLiveTimeline(false);
+  }, [fetchLiveTimeline]);
+
+  // Save to LocalStorage
+  useEffect(() => {
+    if (!isLoaded || clusters.length === 0) return;
+    try {
+      localStorage.setItem(STORAGE_KEY_CLUSTERS, JSON.stringify(clusters));
+      localStorage.setItem(STORAGE_KEY_WORKFLOWS, JSON.stringify(workflows));
+    } catch (err) {
+      console.error('Failed to save to LocalStorage:', err);
+    }
+  }, [clusters, workflows, isLoaded]);
 
   const selectedCluster = clusters.find(c => c.id === selectedClusterId) || clusters[0] || null;
 
@@ -120,7 +136,7 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
           return { success: false, error: '주제명(title)과 카테고리(category)는 필수 입력 사항입니다.' };
         }
 
-        const newId = payload.id || `cluster-${Date.now().toString().slice(-4)}`;
+        const newId = payload.id || `topic-injected-${Date.now().toString().slice(-4)}`;
         const eventsList: TimelineEvent[] = (payload.events || []).map((e, idx) => ({
           id: e.id || `evt-${newId}-${idx + 1}`,
           date: e.date || '2026.09.08',
@@ -196,7 +212,6 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
           }
         };
 
-        // Insert at the beginning
         setClusters(prev => [newCluster, ...prev.filter(c => c.id !== newId)]);
         setWorkflows(prev => [newWorkflow, ...prev]);
         setSelectedClusterId(newId);
@@ -246,7 +261,7 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
     setSelectedClusterId('cluster-01');
     localStorage.removeItem(STORAGE_KEY_CLUSTERS);
     localStorage.removeItem(STORAGE_KEY_WORKFLOWS);
-    showToast('🔄 기본 Mock 데이터 3종(김주애, 호르무즈, 노사갈등)으로 초기화되었습니다.');
+    showToast('🔄 기본 데이터로 초기화되었습니다.');
   }, [showToast]);
 
   return (
@@ -263,6 +278,8 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
         sortDirection,
         isInjectionModalOpen,
         toastMessage,
+        isLiveConnected,
+        isLoadingLive,
         setSelectedClusterId,
         setActiveCategory,
         setLifecycleFilter,
@@ -271,6 +288,7 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
         setSortDirection,
         setIsInjectionModalOpen,
         showToast,
+        refreshLiveTimeline: () => fetchLiveTimeline(true),
         injectJsonData,
         approveClusterDraft,
         resetToDefaultData,
