@@ -138,9 +138,9 @@ export function transformRawItemsToClusters(rawItems: any[]): ClusterTopic[] {
         eventCount: events.length,
         sourceCount: (item.source_index || []).length || events.length,
         auditStatus: 'approved',
-        statusBadge: item.mode === 'merged' ? '서사변경' : item.created_at === item.updated_at ? 'NEW' : '기사추가',
+        statusBadge: item.mode === 'merged' ? '주제 병합' : item.created_at === item.updated_at ? 'new' : '기사 추가',
         lifecycleStatus: 'ACTIVE',
-        topicSummary: item.topic_summary || '주요 거시 이슈의 과거 발단부터 최근 경과까지 인과 맥락을 시간순으로 구조화한 타임라인입니다.',
+        topicSummary: item.topic_summary || '사건의 기원과 전개 맥락을 서사 구조의 타임라인으로 제공합니다.',
         currentStatus: currentStatus,
         events: events,
         mergeHistory:

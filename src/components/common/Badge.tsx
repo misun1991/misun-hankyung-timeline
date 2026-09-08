@@ -69,30 +69,32 @@ export const StatusBadge: React.FC<{ badge?: StatusBadgeType | string; className
 }) => {
   if (!badge) return null;
 
-  if (badge === 'NEW' || badge === '신규') {
+  const b = badge.toLowerCase().replace(/\s+/g, '');
+
+  if (b === 'new' || b === '신규') {
     return (
       <span
-        className={`inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-blue-600 text-white shadow-xs ${className}`}
+        className={`inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-blue-600 text-white uppercase tracking-wider ${className}`}
       >
-        NEW 신규
+        new
       </span>
     );
   }
-  if (badge === '기사추가' || badge.includes('추가')) {
+  if (b.includes('추가')) {
     return (
       <span
-        className={`inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-sky-100 text-sky-800 border border-sky-200 ${className}`}
+        className={`inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-sky-50 text-sky-700 border border-sky-200 ${className}`}
       >
         기사 추가
       </span>
     );
   }
-  if (badge === '서사변경' || badge === '주제병합' || badge.includes('병합')) {
+  if (b.includes('병합') || b.includes('서사')) {
     return (
       <span
-        className={`inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-violet-100 text-violet-800 border border-violet-200 ${className}`}
+        className={`inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-indigo-50 text-indigo-700 border border-indigo-200 ${className}`}
       >
-        서사 구성 변경
+        주제 병합
       </span>
     );
   }

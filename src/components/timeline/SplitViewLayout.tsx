@@ -5,10 +5,12 @@ import { useTimelineData } from '../../context/TimelineDataContext';
 import { ClusterListPanel } from './ClusterListPanel';
 import { EditorialBriefing } from './EditorialBriefing';
 import { VerticalTimeline } from './VerticalTimeline';
-import { MergeHistoryAccordion } from './MergeHistoryAccordion';
+import { CategoryType } from '../../types/timeline';
 import { CategoryBadge, StatusBadge } from '../common/Badge';
 import { LayoutGrid, Columns, Calendar, ArrowRight, Search } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+
+const CATEGORIES: CategoryType[] = ['전체', '국제', '경제', '부동산', '사회', '산업', '문화'];
 
 interface SplitViewLayoutProps {
   initialMode?: 'split' | 'grid';
@@ -23,6 +25,7 @@ export const SplitViewLayout: React.FC<SplitViewLayoutProps> = ({ initialMode })
     setViewMode,
     setSelectedClusterId,
     activeCategory,
+    setActiveCategory,
     isLiveConnected
   } = useTimelineData();
 
@@ -81,25 +84,20 @@ export const SplitViewLayout: React.FC<SplitViewLayoutProps> = ({ initialMode })
             </button>
           </div>
         </div>
-
-        <div className="hidden sm:flex items-center gap-2 text-xs text-slate-500">
-          <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse" />
-          <span>한경 AI이슈 타임라인 허브</span>
-        </div>
       </div>
 
       {/* Main Content Area */}
       {currentMode === 'grid' ? (
         /* 1st Tab: 주제 모아 보기 (Grid View) */
         <main className="flex-1 p-4 sm:p-8 max-w-7xl mx-auto w-full overflow-y-auto">
-          {/* Service Banner: Service Intro & KPI Chips matching Hankyung style */}
-          <section className="mb-7 flex flex-col md:flex-row md:items-end justify-between gap-4 pb-5 border-b border-slate-200/90">
+          {/* Service Banner: Service Intro & KPI Chips */}
+          <section className="mb-6 flex flex-col md:flex-row md:items-end justify-between gap-4 pb-5 border-b border-slate-200/90">
             <div>
               <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
                 주요 이슈 타임라인 모아보기
               </h2>
-              <p className="text-xs sm:text-sm text-slate-500 mt-1">
-                한국경제신문 기사를 정성 분석하여 거시적 사건의 기원과 전개 맥락을 시간순으로 제공합니다.
+              <p className="text-xs sm:text-sm text-slate-600 mt-1">
+                AI가 전 세계 이슈를 심층 탐색하여 사건의 기원과 전개 맥락을 서사 구조의 타임라인으로 제공합니다.
               </p>
             </div>
 
@@ -112,12 +110,6 @@ export const SplitViewLayout: React.FC<SplitViewLayoutProps> = ({ initialMode })
                 <span>누적 주요 사건</span>
                 <span className="font-extrabold text-slate-900 text-sm">{totalEvents}건</span>
               </div>
-              {isLiveConnected && (
-                <div className="bg-emerald-50 border border-emerald-200 rounded-lg px-3 py-2 flex items-center gap-1.5 text-xs text-emerald-800 font-semibold shadow-2xs">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                  <span>한경 서버 실시간 연동</span>
-                </div>
-              )}
 
               {/* Grid Search */}
               <div className="relative w-48 sm:w-56">
@@ -132,6 +124,37 @@ export const SplitViewLayout: React.FC<SplitViewLayoutProps> = ({ initialMode })
               </div>
             </div>
           </section>
+
+          {/* 주제 탭 (Topic Category Tabs) */}
+          <div className="mb-6 flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+            {CATEGORIES.map(cat => {
+              const count =
+                cat === '전체'
+                  ? clusters.length
+                  : clusters.filter(c => c.category === cat).length;
+              const isActive = activeCategory === cat;
+              return (
+                <button
+                  key={cat}
+                  onClick={() => setActiveCategory(cat)}
+                  className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all cursor-pointer flex items-center gap-1.5 ${
+                    isActive
+                      ? 'bg-blue-800 text-white shadow-xs'
+                      : 'bg-white text-slate-600 hover:text-slate-900 hover:bg-slate-50 border border-slate-200'
+                  }`}
+                >
+                  <span>{cat}</span>
+                  <span
+                    className={`text-[11px] px-1.5 py-0.2 rounded-full font-bold ${
+                      isActive ? 'bg-blue-900 text-blue-100' : 'bg-slate-100 text-slate-500'
+                    }`}
+                  >
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
 
           {/* Cards Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -161,8 +184,11 @@ export const SplitViewLayout: React.FC<SplitViewLayoutProps> = ({ initialMode })
                     {c.title}
                   </h3>
 
+                  {/* 200자 이내 요약 설명 */}
                   <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed mb-4">
-                    {c.topicSummary}
+                    {c.topicSummary && c.topicSummary.length > 200
+                      ? `${c.topicSummary.slice(0, 197)}...`
+                      : c.topicSummary || '사건의 기원과 전개 맥락을 서사 구조의 타임라인으로 제공합니다.'}
                   </p>
                 </div>
 
@@ -197,9 +223,6 @@ export const SplitViewLayout: React.FC<SplitViewLayoutProps> = ({ initialMode })
 
                 {/* Vertical Continuous Timeline */}
                 <VerticalTimeline events={selectedCluster.events} />
-
-                {/* Bottom AI Similar Topic Merge History Accordion */}
-                <MergeHistoryAccordion mergeHistory={selectedCluster.mergeHistory} />
               </div>
             ) : (
               <div className="h-full flex items-center justify-center p-12 text-center text-slate-400">

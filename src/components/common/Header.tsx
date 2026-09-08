@@ -4,17 +4,13 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useTimelineData } from '../../context/TimelineDataContext';
-import { Menu, Search, Sparkles, RefreshCw } from 'lucide-react';
+import { Menu, Search } from 'lucide-react';
 
 export const Header: React.FC = () => {
   const router = useRouter();
   const {
     setActiveCategory,
-    setIsInjectionModalOpen,
-    setViewMode,
-    isLiveConnected,
-    isLoadingLive,
-    refreshLiveTimeline
+    setViewMode
   } = useTimelineData();
 
   const handleLogoClick = () => {
@@ -82,35 +78,9 @@ export const Header: React.FC = () => {
           <button
             type="button"
             onClick={() => alert('한경 회원 로그인 연동')}
-            className="hidden sm:inline hover:text-slate-900 transition-colors cursor-pointer"
+            className="hover:text-slate-900 transition-colors cursor-pointer"
           >
             로그인
-          </button>
-          <span className="hidden sm:inline text-slate-300">|</span>
-
-          {/* Live Data Sync Button */}
-          <button
-            onClick={() => refreshLiveTimeline()}
-            disabled={isLoadingLive}
-            className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border text-xs font-bold transition-all cursor-pointer shadow-2xs active:scale-95 ${
-              isLiveConnected
-                ? 'bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border-emerald-300'
-                : 'bg-slate-50 hover:bg-slate-100 text-slate-700 border-slate-200'
-            }`}
-            title="한경 테스트 서버(apidev-core)의 실시간 데이터 새로고침"
-          >
-            <RefreshCw className={`w-3.5 h-3.5 text-emerald-600 ${isLoadingLive ? 'animate-spin' : ''}`} />
-            <span className="hidden xs:inline">{isLoadingLive ? '동기화 중...' : '서버 데이터'}</span>
-          </button>
-
-          {/* Test JSON Injection Button */}
-          <button
-            onClick={() => setIsInjectionModalOpen(true)}
-            className="flex items-center gap-1.5 px-2.5 py-1.5 bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs rounded-lg border border-blue-200 transition-all cursor-pointer active:scale-95 shadow-2xs"
-            title="외부 프롬프트에서 생성된 테스트 JSON 데이터를 화면에 직접 주입"
-          >
-            <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-            <span className="hidden xs:inline">JSON 주입</span>
           </button>
         </div>
       </div>

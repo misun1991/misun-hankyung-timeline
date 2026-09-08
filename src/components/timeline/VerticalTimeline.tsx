@@ -6,7 +6,6 @@ import { useTimelineData } from '../../context/TimelineDataContext';
 import {
   Calendar,
   ExternalLink,
-  Link2,
   ArrowUpDown
 } from 'lucide-react';
 
@@ -110,21 +109,6 @@ export const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) =>
                   {event.headline}
                 </h4>
 
-                {/* Context connection bridge box */}
-                {(event.isGapBridge || event.causalBridge) && (
-                  <div className="mb-3 p-3 rounded-lg bg-amber-50/80 border border-amber-200/80 text-amber-950 text-xs leading-relaxed flex items-start gap-2.5">
-                    <div className="mt-0.5 p-1 rounded bg-amber-200/70 text-amber-900 shrink-0">
-                      <Link2 className="w-3.5 h-3.5" />
-                    </div>
-                    <div>
-                      <span className="font-bold text-amber-900 mr-1.5">
-                        [이전 사건과의 맥락 연결]
-                      </span>
-                      <span>{event.causalBridge}</span>
-                    </div>
-                  </div>
-                )}
-
                 {/* Description Body */}
                 <p className="text-sm text-slate-700 leading-relaxed font-normal mb-4">
                   {event.description}
@@ -134,32 +118,37 @@ export const VerticalTimeline: React.FC<VerticalTimelineProps> = ({ events }) =>
                 {event.sources && event.sources.length > 0 && (
                   <div className="pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs">
                     <div className="flex items-center gap-1.5 flex-wrap">
-                      <span className="text-slate-400 font-medium">보도 출처:</span>
-                      {event.sources.map((src, sIdx) => (
-                        <span
-                          key={sIdx}
-                          className="inline-flex items-center px-2 py-0.5 rounded bg-slate-100 text-slate-700 font-medium border border-slate-200/80"
-                        >
-                          {src.name}
-                        </span>
-                      ))}
-                    </div>
-
-                    <div className="flex items-center gap-2">
+                      <span className="text-slate-400 font-medium">출처:</span>
                       {event.sources.map((src, sIdx) => {
-                        if (!src.url && !src.title) return null;
+                        const isHankyung =
+                          src.name?.includes('한국경제') ||
+                          src.name?.includes('한경') ||
+                          src.url?.includes('hankyung.com');
+                        const hasUrl = src.url && src.url.startsWith('http');
+
+                        if (isHankyung && hasUrl) {
+                          return (
+                            <a
+                              key={sIdx}
+                              href={src.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-blue-50 text-blue-700 hover:bg-blue-100 font-medium border border-blue-200 transition-colors cursor-pointer"
+                              title={src.title || '한국경제 기사 보기'}
+                            >
+                              <span>{src.name}</span>
+                              <ExternalLink className="w-2.5 h-2.5 opacity-70" />
+                            </a>
+                          );
+                        }
+
                         return (
-                          <a
+                          <span
                             key={sIdx}
-                            href={src.url || '#'}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1 text-slate-600 hover:text-blue-700 font-medium hover:underline text-[11px]"
-                            title={src.title || src.name}
+                            className="inline-flex items-center px-2 py-0.5 rounded bg-slate-100 text-slate-600 font-medium border border-slate-200/80"
                           >
-                            <span>{src.name} 기사 원문</span>
-                            <ExternalLink className="w-3 h-3 text-slate-400" />
-                          </a>
+                            {src.name}
+                          </span>
                         );
                       })}
                     </div>

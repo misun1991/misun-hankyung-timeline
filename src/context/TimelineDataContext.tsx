@@ -48,8 +48,8 @@ interface TimelineContextType {
 
 const TimelineDataContext = createContext<TimelineContextType | undefined>(undefined);
 
-const STORAGE_KEY_CLUSTERS = 'agy_news_timeline_clusters_v3';
-const STORAGE_KEY_WORKFLOWS = 'agy_news_timeline_workflows_v3';
+const STORAGE_KEY_CLUSTERS = 'agy_news_timeline_clusters_v4';
+const STORAGE_KEY_WORKFLOWS = 'agy_news_timeline_workflows_v4';
 
 export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [clusters, setClusters] = useState<ClusterTopic[]>(INITIAL_CLUSTERS);
@@ -135,12 +135,14 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
 
   // Initial load
   useEffect(() => {
-    // Clear out old v1/v2 storage if exists
+    // Clear out old v1/v2/v3 storage if exists
     try {
       localStorage.removeItem('agy_news_timeline_clusters_v1');
       localStorage.removeItem('agy_news_timeline_workflows_v1');
       localStorage.removeItem('agy_news_timeline_clusters_v2');
       localStorage.removeItem('agy_news_timeline_workflows_v2');
+      localStorage.removeItem('agy_news_timeline_clusters_v3');
+      localStorage.removeItem('agy_news_timeline_workflows_v3');
     } catch (_) {}
 
     fetchLiveTimeline(false);

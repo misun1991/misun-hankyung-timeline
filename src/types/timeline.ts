@@ -16,7 +16,7 @@ export type ActionMode = 'CREATE' | 'EVOLVE' | 'APPEND';
 
 export type AuditStatus = 'approved' | 'revision_required' | 'do_not_publish';
 
-export type StatusBadgeType = 'NEW' | '기사추가' | '서사변경';
+export type StatusBadgeType = 'new' | '기사 추가' | '주제 병합' | 'NEW' | '기사추가' | '서사변경';
 
 export interface TimelineSource {
   id?: string;

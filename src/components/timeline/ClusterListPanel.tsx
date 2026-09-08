@@ -3,9 +3,9 @@
 import React from 'react';
 import { useRouter } from 'next/navigation';
 import { useTimelineData } from '../../context/TimelineDataContext';
-import { CategoryType, LifecycleStatus } from '../../types/timeline';
-import { CategoryBadge, StatusBadge, AuditBadge } from '../common/Badge';
-import { Search, Filter, Calendar, FileText, ExternalLink, ChevronRight, CheckCircle2 } from 'lucide-react';
+import { CategoryType } from '../../types/timeline';
+import { CategoryBadge, StatusBadge } from '../common/Badge';
+import { Search, Filter, Calendar, FileText, ExternalLink } from 'lucide-react';
 
 const CATEGORIES: CategoryType[] = ['전체', '국제', '경제', '부동산', '사회', '산업', '문화'];
 
@@ -83,28 +83,16 @@ export const ClusterListPanel: React.FC = () => {
           })}
         </div>
 
-        {/* Search & lifecycle secondary filter */}
-        <div className="mt-2.5 flex items-center gap-2">
-          <div className="relative flex-1">
-            <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-1/2 -translate-y-1/2" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={e => setSearchQuery(e.target.value)}
-              placeholder="주제 키워드 또는 서사 검색..."
-              className="w-full pl-8 pr-3 py-1.5 bg-slate-100 hover:bg-slate-50 focus:bg-white text-xs text-slate-800 placeholder-slate-400 rounded-md border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-600 transition-colors"
-            />
-          </div>
-          <select
-            value={lifecycleFilter}
-            onChange={e => setLifecycleFilter(e.target.value as LifecycleStatus | 'ALL')}
-            className="px-2 py-1.5 bg-white border border-slate-200 text-slate-700 text-xs rounded-md focus:outline-none font-medium cursor-pointer"
-          >
-            <option value="ALL">전체 상태</option>
-            <option value="ACTIVE">진행 중인 이슈</option>
-            <option value="COMPLETED">종료/보관 이슈</option>
-            <option value="DISCOVERED">AI 발견 후보</option>
-          </select>
+        {/* Search */}
+        <div className="mt-2.5 relative">
+          <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-1/2 -translate-y-1/2" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+            placeholder="주제 키워드 또는 서사 검색..."
+            className="w-full pl-8 pr-3 py-1.5 bg-slate-100 hover:bg-slate-50 focus:bg-white text-xs text-slate-800 placeholder-slate-400 rounded-md border border-slate-200 focus:outline-none focus:ring-1 focus:ring-blue-600 transition-colors"
+          />
         </div>
       </div>
 
@@ -159,7 +147,14 @@ export const ClusterListPanel: React.FC = () => {
                   {cluster.title}
                 </h3>
 
-                {/* Bottom Stats & Audit badge */}
+                {/* 200자 이내 요약 설명 */}
+                <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed mb-2.5">
+                  {cluster.topicSummary && cluster.topicSummary.length > 200
+                    ? `${cluster.topicSummary.slice(0, 197)}...`
+                    : cluster.topicSummary}
+                </p>
+
+                {/* Bottom Stats */}
                 <div className="flex items-center justify-between pt-2 border-t border-slate-100 text-[11px] text-slate-500">
                   <div className="flex items-center gap-2">
                     <span className="inline-flex items-center gap-0.5 font-semibold text-slate-700">
@@ -172,8 +167,6 @@ export const ClusterListPanel: React.FC = () => {
                       출처 {cluster.sourceCount}건
                     </span>
                   </div>
-
-                  <AuditBadge status={cluster.auditStatus} />
                 </div>
               </div>
             );
