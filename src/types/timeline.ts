@@ -1,4 +1,14 @@
-export type CategoryType = '전체' | '국제' | '경제' | '부동산' | '사회' | '산업' | '문화';
+export type CategoryType =
+  | '전체'
+  | '정치'
+  | '경제'
+  | '산업'
+  | '증권'
+  | '부동산'
+  | 'IT/테크'
+  | '국제'
+  | '사회'
+  | '문화';
 
 export type LifecycleStatus = 'ACTIVE' | 'COMPLETED' | 'DISCOVERED';
 
