@@ -4,29 +4,28 @@
     "workflow_id": "WF-20260821-165618-DDD6",
     "schema_version": "news-timeline-fast-1.0",
     "topic_id": "TOPIC-001",
-    "topic_title": "미·이란 중동 대립과 한국의 호르무즈 파병 외교 마찰",
-    "topic_summary": "2026년 초 미·이란 간 군사 충돌로 호르무즈 해협의 안보 위기가 재발한 가운데, 미 행정부가 한국을 향해 군사 자산 투입 및 파병 압박을 본격화했습니다. 이에 이란이 한글 경고문까지 동원해 참전으로 간주하겠다며 강력 보복을 예고함에 따라 한국 정부는 한미 동맹과 대중동 외교 사이에서 심각한 외통수 국면에 직면했습니다.",
+    "topic_title": "미·이란 호르무즈 충돌과 한국 파병·외교 딜레마",
+    "topic_summary": "호르무즈 해협 일대에서 미군과 이란 간의 맞불 군사 충돌이 격화되면서 원유 수송선 안보와 지역 정세가 급격히 악화되었습니다. 미국이 연합해군 파병 요청을 통해 한국에 압박을 가하자, 이란은 한글 경고문까지 공개하며 파병 시 전쟁 참여로 간주하겠다고 강하게 반발했습니다. 이에 한국 국방부와 외교부는 확정된 바가 없다는 입장을 유지하며 안보 확보와 외교적 마찰 사이에서 신중한 대응 기조를 이어가고 있습니다.",
     "topic_section": "국제",
-    "selection_reason": "미·이란 군사 충돌 격화 속 미 행정부의 동맹국 파병 압박과 이란의 대한국 보복 경고가 상충하는 안보·외교적 외통수 국면.",
+    "selection_reason": "미·이란 간 군사 충돌과 호르무즈 해협 봉쇄 위기 속에서 이란의 한글 경고와 미국의 파병 압박이 맞물려 한국의 안보 및 외교적 딜레마가 고조됨.",
     "current_status": {
-      "as_of": "2026-09-07",
-      "summary": "미국의 호르무즈 해협 군사 자원 투입 요구에 대해 이란 외무부가 한글 경고문을 통해 참전 간주 및 강력 보복을 공식 예고하면서, 한국 정부는 한미 동맹의 파병 압박과 대중동 안보·경제적 파장 사이에서 외교적 딜레마가 극에 달했습니다.",
+      "as_of": "2026-09-08",
+      "summary": "이란의 한글 경고성 메시지와 미국의 파병 요청이 동시에 압박으로 작용하는 가운데, 한국 국방부와 외교부는 파병에 대해 확정된 바가 없다는 공식 입장을 밝혔습니다. 정부는 국제사회와 지속해서 소통하며 원유 수송선의 안보와 이란과의 외교적 관계를 모두 고려한 신중한 대응을 이어가고 있습니다.",
       "source_ids": [
-        "SRC-005",
-        "SRC-006"
+        "SRC-004"
       ],
       "confidence": "high"
     },
     "timeline_status": "complete",
-    "timeline_start_at": "2026-02-28",
-    "timeline_end_at": "2026-09-07",
+    "timeline_start_at": "2026-09-05",
+    "timeline_end_at": "2026-09-08",
     "timeline": [
       {
         "sequence": 1,
         "event_id": "EVT-001",
-        "event_at": "2026-02-28",
-        "headline": "미·이란 군사 충돌 재발 속 호르무즈 해협 봉쇄·유조선 피격 위기 고조",
-        "description": "2026년 초 미국과 이란 간의 군사적 타격전이 다시 불붙으면서 중동 주요 원유 수송로인 호르무즈 해협 내 봉쇄 위기와 유조선 피격 우려가 극대화되었습니다. 이로 인해 한국을 비롯한 글로벌 에너지 공급망의 안보적 불확실성이 급격히 고조되었습니다.",
+        "event_at": "2026-09-05",
+        "headline": "미군 이란 유조선 타격에 이란, 한국 호르무즈 파병 검토 강력 경고",
+        "description": "호르무즈 해협 일대에서 미군과 이란 간의 군사적 맞충돌이 발생하며 봉쇄 위기가 고조되었습니다. 이 과정에서 미국이 한국 등 우방국에 연합해군 파병을 요청하자, 이란 고위 관리는 한국이 파병을 결정할 경우 이를 전쟁 참여로 간주하고 좌시하지 않겠다며 강경 대응을 시사했습니다.",
         "source_ids": [
           "SRC-001"
         ],
@@ -35,45 +34,23 @@
       {
         "sequence": 2,
         "event_id": "EVT-002",
-        "event_at": "2026-08-17",
-        "headline": "미 행정부, 중동 안보 긴장 속 한국에 호르무즈 군사 자산 지원 압박 수위 격상",
-        "description": "호르무즈 해협의 대치 국면이 6개월 이상 장기화하자, 트럼프 미 행정부는 중동 원유 의존도가 높은 한국 등 주요 우방국을 향해 항행의 자유 수호를 명목으로 군사 자산 투입과 파병을 강하게 압박하기 시작했습니다. 미 당국은 이란 비핵화 및 중동 해상 작전에 대한 동맹국의 책임 있는 동참을 요구하며 압박 수위를 한층 끌어올렸습니다.",
+        "event_at": "2026-09-07",
+        "headline": "이란 외무부, 한글 경고문 공개하며 대한국 심리전 및 압박 수위 격상",
+        "description": "미 항공모함과 유조선을 겨냥한 이란 혁명수비대의 타격으로 군사적 긴장이 한층 고조되자 이란 외무부는 압박 수위를 높였습니다. 이란 외무부 대변인은 한국어로 직접 작성한 입장문과 경고 이미지를 공개하며 한국의 위험한 선택에는 대가가 따를 것이라며 미국의 압박에 굴복하지 말 것을 요구했습니다.",
         "source_ids": [
-          "SRC-004"
+          "SRC-002",
+          "SRC-003"
         ],
         "confidence": "high"
       },
       {
         "sequence": 3,
         "event_id": "EVT-003",
-        "event_at": "2026-09-04",
-        "headline": "백악관·미 국방부, 한국의 호르무즈 해협 군사 자원 투입 공식 요구",
-        "description": "미 행정부의 압박이 이어진 가운데 백악관과 미 국방부는 한국 정부의 호르무즈 작전 관련 군사 자원 투입을 공개적으로 기다리고 있다고 밝히며 파병 요구를 공식화했습니다. 이로써 한국 정부의 호르무즈 해협 파병 검토는 피할 수 없는 현실적 외교 과제로 떠올랐습니다.",
+        "event_at": "2026-09-08",
+        "headline": "한국 정부, 이란의 경고에 파병 미정 밝히며 신중 대응 기조 유지",
+        "description": "이란의 직접적인 한글 경고와 미국의 파병 요청 사이에서 딜레마에 빠진 한국 국방부와 외교부는 신중한 입장을 내놓았습니다. 정부는 호르무즈 해협 파병과 관련해 아직 확정된 바가 없으며 국제사회와 협력 및 소통을 지속하겠다는 유보적 기조를 재확인했습니다.",
         "source_ids": [
-          "SRC-002"
-        ],
-        "confidence": "high"
-      },
-      {
-        "sequence": 4,
-        "event_id": "EVT-004",
-        "event_at": "2026-09-05",
-        "headline": "미군, 이란 혁명수비대 항모 공격 시도에 대응해 이란 유조선 3척 전격 타격",
-        "description": "미국의 파병 요구 공세 속에 이란 혁명수비대가 미 항공모함을 향해 공격을 시도하자, 미군이 이란 유조선 3척을 전격 타격하며 무력 충돌이 정점으로 치달았습니다. 양측의 직접 격돌로 중동 전선이 극도로 격화되며 호르무즈 해협 내 군사적 긴장이 최고조에 달했습니다.",
-        "source_ids": [
-          "SRC-003"
-        ],
-        "confidence": "high"
-      },
-      {
-        "sequence": 5,
-        "event_id": "EVT-005",
-        "event_at": "2026-09-07",
-        "headline": "이란 외무부, 한글 경고문 게시하며 한국의 파병 시 대이란 참전 간주·엄중 보복 경고",
-        "description": "미군의 유조선 타격과 미국의 한국 파병 압박에 맞서 이란 외무부는 공식 SNS에 이례적으로 '위험한 선택에는 대가가 따릅니다'라는 한글 경고문을 직접 게시했습니다. 이란 측은 한국이 미국의 호르무즈 작전에 동조해 파병할 경우 이를 대이란 전쟁 참전으로 간주하고 엄중히 보복하겠다고 발표하여 한국 정부를 심각한 외교·안보적 외통수로 몰아넣었습니다.",
-        "source_ids": [
-          "SRC-005",
-          "SRC-006"
+          "SRC-004"
         ],
         "confidence": "high"
       }
@@ -81,25 +58,25 @@
     "source_index": [
       {
         "source_id": "SRC-001",
-        "grounding_id": "GND-005",
-        "title": "[KFT 모닝 브리프] 2026.09.08 — 오늘 꼭 알아야 할 국내외 경제·시장 뉴스 - 한국금융신문",
-        "publisher": "한국금융신문",
+        "grounding_id": "GND-004",
+        "title": "이란 “한국 호르무즈 파병시 전쟁 참여 간주, 좌시 안해”",
+        "publisher": "조선일보",
         "source_type": "news_media",
         "country": "KR",
-        "url": "https://www.fntimes.com/html/view.php?ud=202609080718148101141825007d_18",
-        "published_at": "2026-09-08",
+        "url": "https://www.chosun.com/international/international_general/2026/09/05/SGGXYEVFB5GMRMC26RQAUSSNOI/",
+        "published_at": "2026-09-05",
         "reliability": "high",
         "url_validation": {
-          "grounding_id": "GND-005",
-          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8GNV0smaLdGTH5H-wtHTm0yTAtPIRZCHcAm833b1Lom3VwVuAJmvU2klAJLr-r0eTUsRlwjFdkILLtYoEKtoqEMQ8HofWlK2e59_eXxvU1jtxyuCScQsLljQGexf5p6UTmWt7dUZa9JbSa4Az2R9JctuKi-wMvoCDrOPJ2ZEFEmY=",
-          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8GNV0smaLdGTH5H-wtHTm0yTAtPIRZCHcAm833b1Lom3VwVuAJmvU2klAJLr-r0eTUsRlwjFdkILLtYoEKtoqEMQ8HofWlK2e59_eXxvU1jtxyuCScQsLljQGexf5p6UTmWt7dUZa9JbSa4Az2R9JctuKi-wMvoCDrOPJ2ZEFEmY=",
-          "resolved_url": "https://www.fntimes.com/html/view.php?ud=202609080718148101141825007d_18",
-          "canonical_url": "https://www.fntimes.com/html/view.php?ud=202609080718148101141825007d_18",
-          "page_title": "[KFT 모닝 브리프] 2026.09.08 — 오늘 꼭 알아야 할 국내외 경제·시장 뉴스 - 한국금융신문",
-          "http_status": 200,
+          "grounding_id": "GND-004",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFszsHe06SggrmozZSERTHvXmfTn9poBng1doAVZo-e-DQhrLSk7zrldsu99HtUcLx84O9_NbKGtWUBJDK5RMA0xkzCM25ydBqZ71o078Jka0xEdUAkW8gQVTYbYzxNHNR0M9-JoK6vonhCNOXuqDUdr75JfJcS7A_oH0d5U3L_BxK2Pzrf2a2-MeXVvlZgACTFqYIYCrlonmmiSiU=",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFszsHe06SggrmozZSERTHvXmfTn9poBng1doAVZo-e-DQhrLSk7zrldsu99HtUcLx84O9_NbKGtWUBJDK5RMA0xkzCM25ydBqZ71o078Jka0xEdUAkW8gQVTYbYzxNHNR0M9-JoK6vonhCNOXuqDUdr75JfJcS7A_oH0d5U3L_BxK2Pzrf2a2-MeXVvlZgACTFqYIYCrlonmmiSiU=",
+          "resolved_url": "https://www.chosun.com/international/international_general/2026/09/05/SGGXYEVFB5GMRMC26RQAUSSNOI/",
+          "canonical_url": "https://www.chosun.com/international/international_general/2026/09/05/SGGXYEVFB5GMRMC26RQAUSSNOI/",
+          "page_title": "이란 “한국 호르무즈 파병시 전쟁 참여 간주, 좌시 안해”",
+          "http_status": 206,
           "content_type": "text/html; charset=utf-8",
           "redirect_count": 1,
-          "title_similarity": 0.0833,
+          "title_similarity": 0.0,
           "validation_status": "verified",
           "accepted": true,
           "validation_error": null
@@ -108,23 +85,23 @@
       },
       {
         "source_id": "SRC-002",
-        "grounding_id": "GND-006",
-        "title": "“한국 자원 투입 기다리고 있다”...美 ‘파병 압박’ 거세지는데 격화하는 중동 전선 | 미주중앙일보",
-        "publisher": "미주중앙일보",
+        "grounding_id": "GND-001",
+        "title": "이란 외무부, 한글로 파병 경고... “한국 위험한 선택엔 대가 따른다”",
+        "publisher": "조선일보",
         "source_type": "news_media",
-        "country": "US",
-        "url": "https://www.koreadaily.com/article/20260906215508829",
-        "published_at": "2026-09-06",
+        "country": "KR",
+        "url": "https://www.chosun.com/international/international_general/2026/09/07/RRENHNOSXJBFLKA6FKJR3VUZKU/",
+        "published_at": "2026-09-07",
         "reliability": "high",
         "url_validation": {
-          "grounding_id": "GND-006",
-          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvT1hec3y6OW4IUmyyvmmA7LjEbrtEPeORZJgjDm_mlu5Z3Iz2sPzUezu4CpXBxoZst2M07MLTkTYNcZpZCNlX3wRRJUYoEFVcCt_xCMr7FQl01e-xBjmj6FEqhVWxdRxLGVenplCdnMM4rafkg==",
-          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEvT1hec3y6OW4IUmyyvmmA7LjEbrtEPeORZJgjDm_mlu5Z3Iz2sPzUezu4CpXBxoZst2M07MLTkTYNcZpZCNlX3wRRJUYoEFVcCt_xCMr7FQl01e-xBjmj6FEqhVWxdRxLGVenplCdnMM4rafkg==",
-          "resolved_url": "https://www.koreadaily.com/article/20260906215508829",
-          "canonical_url": "https://www.koreadaily.com/article/20260906215508829",
-          "page_title": "“한국 자원 투입 기다리고 있다”...美 ‘파병 압박’ 거세지는데 격화하는 중동 전선 | 미주중앙일보",
-          "http_status": 200,
-          "content_type": "text/html;charset=utf-8",
+          "grounding_id": "GND-001",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi02aNw1QmmKu-3lScnmPcZmbUMwi0_WQVc7fbe5EjWLz7md7i8tFIBqy1lDsVRQiUS4_oOWjERF5Tw2RDZzd5heA1N9UifMiJBufY7tP-JmnVT0Sgyd9i6i8a6hf9tNnvNgV7q_yT1NEH4ohJ6fMvPgsmK3lBmLaYaWzs-lCpGh8dl8nGKqHTruXhnRVSWgGHyjUFrPs2hHKDeHc=",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHi02aNw1QmmKu-3lScnmPcZmbUMwi0_WQVc7fbe5EjWLz7md7i8tFIBqy1lDsVRQiUS4_oOWjERF5Tw2RDZzd5heA1N9UifMiJBufY7tP-JmnVT0Sgyd9i6i8a6hf9tNnvNgV7q_yT1NEH4ohJ6fMvPgsmK3lBmLaYaWzs-lCpGh8dl8nGKqHTruXhnRVSWgGHyjUFrPs2hHKDeHc=",
+          "resolved_url": "https://www.chosun.com/international/international_general/2026/09/07/RRENHNOSXJBFLKA6FKJR3VUZKU/",
+          "canonical_url": "https://www.chosun.com/international/international_general/2026/09/07/RRENHNOSXJBFLKA6FKJR3VUZKU/",
+          "page_title": "이란 외무부, 한글로 파병 경고... “한국 위험한 선택엔 대가 따른다”",
+          "http_status": 206,
+          "content_type": "text/html; charset=utf-8",
           "redirect_count": 1,
           "title_similarity": 0.0,
           "validation_status": "verified",
@@ -135,22 +112,260 @@
       },
       {
         "source_id": "SRC-003",
-        "grounding_id": "GND-003",
-        "title": "고민 커진 호르무즈 파병, 이란 “전쟁 참여 간주”｜동아일보",
-        "publisher": "동아일보",
+        "grounding_id": "GND-002",
+        "title": "한국 파병 검토되는 호르무즈 해협에서 긴장 고조...미군 공격에 이란 즉각 보복 - Radio Seoul",
+        "publisher": "Radio Seoul",
         "source_type": "news_media",
         "country": "KR",
-        "url": "https://www.donga.com/news/Politics/article/all/20260907/134615775/2",
+        "url": "https://www.radioseoul1650.com/archives/154898",
         "published_at": "2026-09-07",
+        "reliability": "medium",
+        "url_validation": {
+          "grounding_id": "GND-002",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0d7Rk4LhCh37A9etnxU9tpab5x6zDAfEIw996J0Z8aIj2nPzYPKl5TSGtJkjVQgxQzaAQLzahdK6nAogPgs4EftdvU5iy5px_vYkLipMpkMWbGV1CFTS1zDcwsGR_WSS3YG9vr4_C0dQ=",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0d7Rk4LhCh37A9etnxU9tpab5x6zDAfEIw996J0Z8aIj2nPzYPKl5TSGtJkjVQgxQzaAQLzahdK6nAogPgs4EftdvU5iy5px_vYkLipMpkMWbGV1CFTS1zDcwsGR_WSS3YG9vr4_C0dQ=",
+          "resolved_url": "https://www.radioseoul1650.com/archives/154898",
+          "canonical_url": "https://www.radioseoul1650.com/archives/154898",
+          "page_title": "한국 파병 검토되는 호르무즈 해협에서 긴장 고조...미군 공격에 이란 즉각 보복 - Radio Seoul",
+          "http_status": 206,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.3448,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-004",
+        "grounding_id": "GND-003",
+        "title": "이란, 한국 호르무즈 파병 검토에 '한글 경고'…\"미 압박 굴복 말라\" < 이시각 뉴스 < 국제뉴스 < 기사본문 - 전남일보",
+        "publisher": "전남일보",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000063316",
+        "published_at": "2026-09-08",
         "reliability": "high",
         "url_validation": {
           "grounding_id": "GND-003",
-          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENb982QZ6I8-ll2l9SyCkUUBR-w2lEvCpHL0vEXtMUJb45dPxSjRDpPw8erZ_Yi9gNwgLrIkGPrLLBuokkzF_cqsEBSM9hAnEAqK4BY6G5m61RaPuYWR-I0bTGMZ1HXTYfhVh9IYobyMPs0mMytexLOZafG6ZNBs5aBrFaNaQ=",
-          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENb982QZ6I8-ll2l9SyCkUUBR-w2lEvCpHL0vEXtMUJb45dPxSjRDpPw8erZ_Yi9gNwgLrIkGPrLLBuokkzF_cqsEBSM9hAnEAqK4BY6G5m61RaPuYWR-I0bTGMZ1HXTYfhVh9IYobyMPs0mMytexLOZafG6ZNBs5aBrFaNaQ=",
-          "resolved_url": "https://www.donga.com/news/Politics/article/all/20260907/134615775/2",
-          "canonical_url": "https://www.donga.com/news/Politics/article/all/20260907/134615775/2",
-          "page_title": "고민 커진 호르무즈 파병, 이란 “전쟁 참여 간주”｜동아일보",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJXmkzcITxyiKyhoTgtwTy_v4-K236jQnDTp7uKtaSdw0k0OXgmEnOyQ41mMDN0vhiBZ02p8DhGr8ZFJA6-5kGmjXqXrdXKGDUIqk71iRlLUp_w68jeTH2CJoNDI6pGLEvRTd5gLAsCnFcAwXkqEnUhA8IfdRh0uzI",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJXmkzcITxyiKyhoTgtwTy_v4-K236jQnDTp7uKtaSdw0k0OXgmEnOyQ41mMDN0vhiBZ02p8DhGr8ZFJA6-5kGmjXqXrdXKGDUIqk71iRlLUp_w68jeTH2CJoNDI6pGLEvRTd5gLAsCnFcAwXkqEnUhA8IfdRh0uzI",
+          "resolved_url": "https://www.jnilbo.com/news/articleView.html?idxno=90000063316",
+          "canonical_url": "https://www.jnilbo.com/news/articleView.html?idxno=90000063316",
+          "page_title": "이란, 한국 호르무즈 파병 검토에 '한글 경고'…\"미 압박 굴복 말라\" < 이시각 뉴스 < 국제뉴스 < 기사본문 - 전남일보",
           "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      }
+    ],
+    "conflicting_information": [],
+    "missing_information": [
+      "사건은 3개입니다. 권장 최소 5개보다 적습니다.",
+      "출처는 4개입니다. 권장 최소 6개보다 적습니다."
+    ],
+    "research_status": "partial",
+    "audit_status": "approved",
+    "prompt_version": "v2",
+    "google_search": {
+      "web_search_queries": [
+        "뉴스 2026년 9월 8일 최신 이슈",
+        "2026년 9월 7일 8일 국제 경제 주요 뉴스",
+        "2026년 9월 8일 속보 종합",
+        "\"호르무즈\" \"이란\" \"한국\" \"파병\" 2026년 9월",
+        "\"구리\" \"사상 최고\" \"관세\" 2026년 9월",
+        "\"고용 서프라이즈\" \"9월 금리\" 2026년 9월"
+      ],
+      "search_entry_point_rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGagtilvRq1LUUyInLxgAsMmj-6IEQoFZ6TcDD27OwXbWRJ4BhBFAxL2GXMEOTuRiMazU37Fb9SeEWpf35VRUGMXghSDL4gaRcz2X_Azcs89W-1RdjIz29khjwIg8u2udEYwNa7sQ3cyCL3CvtDHbNQh5TibKbdAzvCeA3iz46Ny9jLpcdi7RrVuekLHu8BVSnu3YPUjnMujHOIUDuo6xkJKMnTxJuNHSHjSb92aSLPE9f3U8fXsgxAOvSfjZ14RRMfJycfn_9yGPi4nG2xymINx9LCFNKbmOqrKLSXbNX_2K0XwVaw_UvoG8ImSVtOipWTaw1qC0x4Rp44inHOXcAgZP7Z_IyTJQ==\">&quot;고용 서프라이즈&quot; &quot;9월 금리&quot; 2026년 9월</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6uDEJfM1tRR6AAxcWsbooTAz2LExpQh-CqWJ_HeKDI5WTb7F2pm3y9uqscp9OIiSDYBelW9OmVJiHm5-i27VzGZghU9OCSubXJtmHQmVQSlqnsp8-GW7yFUtWNGLLvnYoYYXzwesnyO86A58sNbcw2ZlolhtrZ3apNx1Ls8YRC51T507Fvh-lZqrZookM2YATG-rM2niOiVgl-HpZQq1V1iV21ePS4Ee_R1To9TgFD-q53VDikJA_osgPtE4h36T9d91Jgh7GQXvoGmMpIxZ0ealUS4PbQ4i9O_L_9PmjVIy0y1ossEh0NodwentgJUyf3QehB5q_EFL4yqmKI1bgmc2yKtmj_0wOTAzXSlSTVsHd\">&quot;호르무즈&quot; &quot;이란&quot; &quot;한국&quot; &quot;파병&quot; 2026년 9월</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHszTw_oD6wOplbk2077eEqO8w5oVif_du0M6w4DC5EaL4ilNF6qEFR2BQYyt5iUDhrwYkUz-J3LeeVt1NsFB0JD_MS2rr9BtPloPtFAWCv7_kvSjpMOvttt4NseRGGEAs0vrf-X0v04wWgC8zta39B1pdiyLLH8d5_huDALdryGFyfcRGrgujQXxhEZwRdClV05IOzMBSdpyO37A41-H6fj_ah2VVv98nbqwwNwyj8IJARccyCnJZyMybVEZ6OJPpv0Zq0FVqn-I82-Z30wzOYj_x20bf8n55T5Ly1-FsKaP6fbJgG_MITyg-ybxa0eTMiEVH4dAFnqL2_\">&quot;구리&quot; &quot;사상 최고&quot; &quot;관세&quot; 2026년 9월</a>\n  </div>\n</div>"
+    },
+    "performance": {
+      "research_seconds": 18.346,
+      "timeline_seconds": 8.008,
+      "audit_seconds": 3.794,
+      "total_seconds": 89.692,
+      "model_call_count": 3,
+      "generate_attempt": 1
+    },
+    "published_at": "2026-09-08T14:32:32.682000+09:00",
+    "updated_at": "2026-09-08T14:32:32.682000+09:00",
+    "updated_by_workflow_id": "WF-20260908-143202-C862",
+    "created_at": "2026-08-21T16:57:41.967000+09:00",
+    "last_merge_similarity": 0.8,
+    "last_merged_from_workflow_id": "WF-20260908-143202-C862",
+    "mode": "merged"
+  },
+  {
+    "_id": "WF-20260824-100802-E3F6",
+    "workflow_id": "WF-20260824-100802-E3F6",
+    "schema_version": "news-timeline-fast-1.0",
+    "topic_id": "TOPIC-001",
+    "topic_title": "노란봉투법 지침 충돌과 성과급 쟁의권 법적 대립",
+    "topic_summary": "주요 대기업 노사 간 영업이익 연동 성과급 교섭 갈등이 지속되자 정부는 시행령 개정 대신 행정지침 정비로 대응 방향을 틀었다. 정부가 경영성과급 요구를 의무 교섭 및 파업 대상에서 제외하는 새 지침을 전격 발표하면서 노동계의 강력한 반발을 불러일으켰다. 고용노동부 장관이 삼성전자 노조의 성과급 요구 파업을 불법으로 판정한 데 이어 여당이 국회 재개정 추진 방침을 밝힘에 따라 노사정 갈등이 정면충돌 양상으로 치닫고 있다.",
+    "topic_section": "사회",
+    "selection_reason": "노란봉투법 시행 지침 제정 과정에서 경영성과급 요구의 불법 파업 판정 여부를 둘러싸고 노동계와 정부·경영계 간 갈등이 법적·정치적 전면전으로 확대되는 국면.",
+    "current_status": {
+      "as_of": "2026-09-08",
+      "summary": "김영훈 고용노동부 장관이 삼성전자 노조의 성과급 요구 파업에 대해 불법 판단을 내리고 여당이 노란봉투법 재개정을 추진하면서 노사 간 법적·정치적 갈등이 최고조에 달했다. 노동계의 강력한 반발 속에 산업 현장의 혼란과 대치가 당분간 지속될 전망이다.",
+      "source_ids": [
+        "SRC-002",
+        "SRC-003",
+        "SRC-004",
+        "SRC-005"
+      ],
+      "confidence": "high"
+    },
+    "timeline_status": "complete",
+    "timeline_start_at": "2026-08-22",
+    "timeline_end_at": "2026-09-08",
+    "timeline": [
+      {
+        "sequence": 1,
+        "event_id": "EVT-001",
+        "event_at": "2026-08-22",
+        "headline": "주요 대기업 노사, 영업이익 연동 성과급 단체교섭 갈등 고조",
+        "description": "주요 대기업 노사 간 '영업이익 N% 성과급' 지급 요구를 둘러싼 단체교섭 갈등이 지속되며 산업 현장의 진통이 심화했다. 정부는 파업권 행사 범위와 교섭 대상 적절성을 놓고 제도적 해법 모색에 나섰다.",
+        "source_ids": [
+          "SRC-001"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 2,
+        "event_id": "EVT-002",
+        "event_at": "2026-08-30",
+        "headline": "고용노동부, 노란봉투법 쟁의 기준을 행정지침으로 정비 결정",
+        "description": "성과급 교섭 갈등이 장기화하는 가운데 고용노동부는 법 개정 부담을 줄이고자 노란봉투법 쟁의 기준을 시행령 개정 대신 행정지침으로 정비하기로 방침을 변경했다. 행정지침을 통해 교섭 대상과 불법 쟁의의 경계를 명확히 하겠다는 취지다.",
+        "source_ids": [
+          "SRC-001"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 3,
+        "event_id": "EVT-003",
+        "event_at": "2026-09-03",
+        "headline": "정부, 영업이익 연동 성과급 파업 대상 제외 '새 행정지침' 발표",
+        "description": "정부는 기업의 영업이익에 연동한 경영성과급 지급 요구를 의무 교섭 및 파업 대상에서 제외하는 내용의 노란봉투법 새 행정지침을 전격 발표했다. 이에 따라 경영성과급 배분을 이유로 한 쟁의행위는 법적 보호를 받기 어렵게 되었다.",
+        "source_ids": [
+          "SRC-001"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 4,
+        "event_id": "EVT-004",
+        "event_at": "2026-09-06",
+        "headline": "노동계 강력 반발…인력배치·성과급 쟁의 합법성 혼란 가중",
+        "description": "정부의 새 지침 발표 직후 노동계는 노동권 침해라며 거세게 반발했다. 현장에서는 인력배치와 성과급 요구의 쟁의권 인정 여부를 두고 노사 간 해석이 엇갈리며 혼란이 가중되었다.",
+        "source_ids": [
+          "SRC-001"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 5,
+        "event_id": "EVT-005",
+        "event_at": "2026-09-08",
+        "headline": "김영훈 노동장관, 삼성전자 노조의 '성과급 파업' 불법 판정",
+        "description": "김영훈 고용노동부 장관은 새 지침을 적용할 경우 삼성전자 노조의 '영업이익 N% 성과급' 요구 파업이 불법 쟁의행위에 해당한다는 입장을 공식 표명했다. 핵심 사업장의 쟁의권이 직접적 타격을 받으면서 노정 갈등이 전면전으로 치달았다.",
+        "source_ids": [
+          "SRC-002",
+          "SRC-004",
+          "SRC-005"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 6,
+        "event_id": "EVT-006",
+        "event_at": "2026-09-08",
+        "headline": "여당 원내대표, 국회 교섭단체 연설서 노란봉투법 재개정 추진 선언",
+        "description": "정부의 불법 판정에 이어 정점식 국민의힘 원내대표가 국회 교섭단체 대표연설에서 노란봉투법 재개정 추진 방침을 공식화했다. 원청 사용자성과 교섭 범위를 입법적으로 재규정하겠다고 밝혀 입법부 내 정치적 대치가 극에 달했다.",
+        "source_ids": [
+          "SRC-003"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "source_index": [
+      {
+        "source_id": "SRC-001",
+        "grounding_id": "GND-008",
+        "title": "youtube.com",
+        "publisher": "연합뉴스TV",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://www.youtube.com/channel/UCTHCOPwqNfZ0uiKOvFyhGwg/live",
+        "published_at": "2026-09-07",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-008",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy9Qb42QCtVwczNnofiJC2zKqzbRBYFDqJkC6rvnQ4GnWDqeeVr06Mu8r5CjEioOFq-nNaPMpwKfCCkHdXShqA-wVmpd1B_OztudLXtV3PZZ5-W3VATF7S4WC-GtX33p3iWMmfj_sN1LANg2dSvMYaX6sPJ1DM-Vs=",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEy9Qb42QCtVwczNnofiJC2zKqzbRBYFDqJkC6rvnQ4GnWDqeeVr06Mu8r5CjEioOFq-nNaPMpwKfCCkHdXShqA-wVmpd1B_OztudLXtV3PZZ5-W3VATF7S4WC-GtX33p3iWMmfj_sN1LANg2dSvMYaX6sPJ1DM-Vs=",
+          "resolved_url": "https://www.youtube.com/channel/UCTHCOPwqNfZ0uiKOvFyhGwg/live",
+          "canonical_url": null,
+          "page_title": null,
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-002",
+        "grounding_id": "GND-009",
+        "title": "김영훈 “노란봉투법 새 지침 적용시 삼전 ‘N% 성과급 파업’은 불법” - 조선비즈",
+        "publisher": "조선비즈",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://biz.chosun.com/topics/topics_social/2026/09/08/DHSL65YHSBDEPPZ4HL2SBGJQLU/",
+        "published_at": "2026-09-08",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-009",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZweb8tvhA2eAECAiXZXEPtdQFVRMNDmJW1NutTjTd4I5LhJWYKtAp1C1bxUucXcGkgdKywEvjrim2JsBzhi4QkA38qFetqWJf5aVYz5fHJJn8v15Oz-Y2v9qmM4XvvNbfuq-oJ5Y6flF7-76Ou0OJxKAmUrXFEqWWTE8Dx1osNk7OOpx4IETldPCbhA==",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZweb8tvhA2eAECAiXZXEPtdQFVRMNDmJW1NutTjTd4I5LhJWYKtAp1C1bxUucXcGkgdKywEvjrim2JsBzhi4QkA38qFetqWJf5aVYz5fHJJn8v15Oz-Y2v9qmM4XvvNbfuq-oJ5Y6flF7-76Ou0OJxKAmUrXFEqWWTE8Dx1osNk7OOpx4IETldPCbhA==",
+          "resolved_url": "https://biz.chosun.com/topics/topics_social/2026/09/08/DHSL65YHSBDEPPZ4HL2SBGJQLU/",
+          "canonical_url": "https://biz.chosun.com/topics/topics_social/2026/09/08/DHSL65YHSBDEPPZ4HL2SBGJQLU/",
+          "page_title": "김영훈 “노란봉투법 새 지침 적용시 삼전 ‘N% 성과급 파업’은 불법” - 조선비즈",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0526,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-003",
+        "grounding_id": "GND-010",
+        "title": "정점식 `이번 정부 개헌 없어…국민의힘, 절대 개헌 논의 않아` - 매일신문",
+        "publisher": "매일신문",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://www.imaeil.com/page/view/2026090810060819953",
+        "published_at": "2026-09-08",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-010",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJhF9Ww3i1oe_ur4AwRxRQPfidZDgh71aUio4M5_bmsfPyZ-ufVLdSUneD73gqx_EoGchvVQ0S7dPGeInSs5hsAE13Nr3QxCQMk2DIeyD-Nm6Bgm0cU40JCPnMrRMsAfu0qW-356q91FDSYrIxmw==",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJhF9Ww3i1oe_ur4AwRxRQPfidZDgh71aUio4M5_bmsfPyZ-ufVLdSUneD73gqx_EoGchvVQ0S7dPGeInSs5hsAE13Nr3QxCQMk2DIeyD-Nm6Bgm0cU40JCPnMrRMsAfu0qW-356q91FDSYrIxmw==",
+          "resolved_url": "https://www.imaeil.com/page/view/2026090810060819953",
+          "canonical_url": "https://www.imaeil.com/page/view/2026090810060819953",
+          "page_title": "정점식 `이번 정부 개헌 없어…국민의힘, 절대 개헌 논의 않아` - 매일신문",
+          "http_status": 206,
           "content_type": "text/html; charset=utf-8",
           "redirect_count": 1,
           "title_similarity": 0.0,
@@ -162,21 +377,21 @@
       },
       {
         "source_id": "SRC-004",
-        "grounding_id": "GND-004",
-        "title": "미국은 압박, 이란은 \"전쟁 참여\" 경고…정부, 호르무즈 파병 놓고 고심",
-        "publisher": "뉴시스",
-        "source_type": "news_agency",
+        "grounding_id": "GND-011",
+        "title": "노동장관 \"새 지침대로면 '삼성전자 N% 성과급' 요구 파업 불법\"",
+        "publisher": "iMBC",
+        "source_type": "news_media",
         "country": "KR",
-        "url": "https://www.newsis.com/view/NISX20260907_0003779190",
-        "published_at": "2026-09-07",
+        "url": "https://imnews.imbc.com/news/2026/society/article/6850305_36918.html",
+        "published_at": "2026-09-08",
         "reliability": "high",
         "url_validation": {
-          "grounding_id": "GND-004",
-          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdMgAiAw71wKRqbnZ2VnSyBvj_9EgAdPFA9rFZsn8yTLWRn_yC-5lF126Nh3HuIUSZsatnkVnwoviGV0hsZkVJwqw2AZBfGPQMHC48Wt_OQ4AO1KK6SRs7aHt31lmrlhGAxdsbvoOaukOV5CTmpIFW",
-          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdMgAiAw71wKRqbnZ2VnSyBvj_9EgAdPFA9rFZsn8yTLWRn_yC-5lF126Nh3HuIUSZsatnkVnwoviGV0hsZkVJwqw2AZBfGPQMHC48Wt_OQ4AO1KK6SRs7aHt31lmrlhGAxdsbvoOaukOV5CTmpIFW",
-          "resolved_url": "https://www.newsis.com/view/NISX20260907_0003779190",
-          "canonical_url": "https://www.newsis.com/view/NISX20260907_0003779190",
-          "page_title": "미국은 압박, 이란은 \"전쟁 참여\" 경고…정부, 호르무즈 파병 놓고 고심",
+          "grounding_id": "GND-011",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_BsyFt7VIRMNW5Glpu5ZrWQSHF5X2ceb3jb_0x2eXIc-Z41IlJnbRw-L_1faA-345klUkaGPUAYX6_p8J7ngrGF9EHEPZEjxbwm_uQYXFjBvVo_xz1WYIZOOzljsuV26pNt9LHKZaeo4PogeyDUwoQViPlhbDT6vL6hNOfec=",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_BsyFt7VIRMNW5Glpu5ZrWQSHF5X2ceb3jb_0x2eXIc-Z41IlJnbRw-L_1faA-345klUkaGPUAYX6_p8J7ngrGF9EHEPZEjxbwm_uQYXFjBvVo_xz1WYIZOOzljsuV26pNt9LHKZaeo4PogeyDUwoQViPlhbDT6vL6hNOfec=",
+          "resolved_url": "https://imnews.imbc.com/news/2026/society/article/6850305_36918.html",
+          "canonical_url": "https://imnews.imbc.com/news/2026/society/article/6850305_36918.html",
+          "page_title": "노동장관 \"새 지침대로면 '삼성전자 N% 성과급' 요구 파업 불법\"",
           "http_status": 200,
           "content_type": "text/html; charset=utf-8",
           "redirect_count": 1,
@@ -189,52 +404,25 @@
       },
       {
         "source_id": "SRC-005",
-        "grounding_id": "GND-001",
-        "title": "이란 “한국 호르무즈 파병, 심각한 결과 초래할 것” 한글로 경고까지 | 채널A 뉴스",
-        "publisher": "채널A",
+        "grounding_id": "GND-012",
+        "title": "노동장관 “삼성전자 N% 성과급 파업, 새 지침 적용땐 불법” | 중앙일보",
+        "publisher": "중앙일보",
         "source_type": "news_media",
         "country": "KR",
-        "url": "https://ichannela.com/news/detail/000000549077.do",
-        "published_at": "2026-09-07",
+        "url": "https://www.joongang.co.kr/article/25459999",
+        "published_at": "2026-09-08",
         "reliability": "high",
         "url_validation": {
-          "grounding_id": "GND-001",
-          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErx7ytBV0KI5rA1OfTdm09xTlKc4K9OyegM3KylGvnSl8xSeOkMxz4584aPqkrV81BKWJsh3L2AjasZQ-GiqvmT7mH02nhIaMPEYnk02U0PHeluOsmvDT9XLvxmLbjz6GomtL__bgX9bncFw==",
-          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErx7ytBV0KI5rA1OfTdm09xTlKc4K9OyegM3KylGvnSl8xSeOkMxz4584aPqkrV81BKWJsh3L2AjasZQ-GiqvmT7mH02nhIaMPEYnk02U0PHeluOsmvDT9XLvxmLbjz6GomtL__bgX9bncFw==",
-          "resolved_url": "https://ichannela.com/news/detail/000000549077.do",
-          "canonical_url": "https://ichannela.com/news/detail/000000549077.do",
-          "page_title": "이란 “한국 호르무즈 파병, 심각한 결과 초래할 것” 한글로 경고까지 | 채널A 뉴스",
+          "grounding_id": "GND-012",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUvcQnB1yGV6Jg4H2Ee_afaBmJMsQZpKUffjg32C6cUnd5b6bddXkGOxCoAX0q0wmQWqXYZa7vpqhIfNDbzizkMOxR-QJzJOLT1aWDqifkhtG4H1mM0p9Xi3e_gAXtwjEpL-ZQXw==",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUvcQnB1yGV6Jg4H2Ee_afaBmJMsQZpKUffjg32C6cUnd5b6bddXkGOxCoAX0q0wmQWqXYZa7vpqhIfNDbzizkMOxR-QJzJOLT1aWDqifkhtG4H1mM0p9Xi3e_gAXtwjEpL-ZQXw==",
+          "resolved_url": "https://www.joongang.co.kr/article/25459999",
+          "canonical_url": "https://www.joongang.co.kr/article/25459999",
+          "page_title": "노동장관 “삼성전자 N% 성과급 파업, 새 지침 적용땐 불법” | 중앙일보",
           "http_status": 200,
           "content_type": "text/html;charset=utf-8",
           "redirect_count": 1,
-          "title_similarity": 0.0465,
-          "validation_status": "verified",
-          "accepted": true,
-          "validation_error": null
-        },
-        "openable": true
-      },
-      {
-        "source_id": "SRC-006",
-        "grounding_id": "GND-007",
-        "title": "이란, 한글로 호르무즈 파병 경고‥\"위험한 선택엔 대가\"",
-        "publisher": "MBC뉴스",
-        "source_type": "news_media",
-        "country": "KR",
-        "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6850179_37004.html",
-        "published_at": "2026-09-07",
-        "reliability": "high",
-        "url_validation": {
-          "grounding_id": "GND-007",
-          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESVeMlbXvE_euXiU1Bq2jWGUXBSVhNXdheIBFN_QrPOvYUaHsSUOvyGBkB0iWrWnqfoEhzEwIfw0KZD0wWSzuX4CkLETIXnFTlJQemL_raB-t6BbAU-yhNarOQTLZSb3JzzXqnXe536XFgDQULglDcJw7o8BmsjGF6WeCrVBj3",
-          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESVeMlbXvE_euXiU1Bq2jWGUXBSVhNXdheIBFN_QrPOvYUaHsSUOvyGBkB0iWrWnqfoEhzEwIfw0KZD0wWSzuX4CkLETIXnFTlJQemL_raB-t6BbAU-yhNarOQTLZSb3JzzXqnXe536XFgDQULglDcJw7o8BmsjGF6WeCrVBj3",
-          "resolved_url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6850179_37004.html",
-          "canonical_url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6850179_37004.html",
-          "page_title": "이란, 한글로 호르무즈 파병 경고‥\"위험한 선택엔 대가\"",
-          "http_status": 200,
-          "content_type": "text/html; charset=utf-8",
-          "redirect_count": 1,
-          "title_similarity": 0.0,
+          "title_similarity": 0.0526,
           "validation_status": "verified",
           "accepted": true,
           "validation_error": null
@@ -242,38 +430,40 @@
         "openable": true
       }
     ],
-    "conflicting_information": [
-      "EVT-001/SRC-001: 사건일(2026-02-28)과 기사일(2026-09-08)이 어긋날 수 있습니다(경고 유지)."
+    "conflicting_information": [],
+    "missing_information": [
+      "출처는 5개입니다. 권장 최소 6개보다 적습니다."
     ],
-    "missing_information": [],
-    "research_status": "complete",
-    "audit_status": "not_required",
+    "research_status": "partial",
+    "audit_status": "approved",
     "prompt_version": "v2",
     "google_search": {
       "web_search_queries": [
-        "주요 뉴스 이슈 최근 2026",
-        "속보 정치 경제 사회 국제 최근 이슈",
-        "캐나다 보복 관세 트럼프 봄바디어",
-        "트럼프 관세 통상 마찰 캐나다",
-        "러시아 우크라이나 종전 협상 트럼프 특사 3자회담",
-        "독일 극우 AfD 주정부 집권 방화벽"
+        "주요 뉴스 2026년 9월",
+        "국제 뉴스 최신 2026년 9월",
+        "경제 뉴스 최신 2026년 9월",
+        "속보 오늘 뉴스 2026년 9월",
+        "호르무즈 해협 파병 한국 이란 경고 2026",
+        "호르무즈 파병 미국 요구 이란 경고 2026",
+        "노란봉투법 쟁의 지침 성과급 파업 불법 2026",
+        "개헌 정점식 김민석 연설 2026"
       ],
-      "search_entry_point_rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEALjcdFFM6K1av_jc8bkokhSMXJzU6Vks478PqLZRqd3OJ0747fELyVyfVjyrVQ75P4RiGRfjfJk6Il5BOK0KzbAnn22FuhYfWZBBh0_NKk0lAmWGf_xL-_ZyEkQwzJ_zSQ9brSrQMpeU97uX9WMIN0qSg55pFuwAuQtrdWATvHczX0sCCncW-RyNp9OZ5HOFnTfUf6Vz8Gh9oEEBvEwPJxilfEmMtTnlstWw19SiJckdN48dVNzufmAi56fXrzJX9lVXV1KurcliLdeyOgtbimLQZu1jAPAirlLtfWTLcfe6MrR8aj63TUF2VjH_8NDOZCxv7\">트럼프 관세 통상 마찰 캐나다</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkVwRCIvflNPppcjEugWw-TA4t2p0r4DMHfNiYKPFlyWyU2oKhpOURVp1coh6-rj7iuxxrsn9L9amihGAA8sF9Rg5r2R9SMam31pXD34N_61b2tegEgl8DkFGR5Ob3EtKbmlt3EsyPy0UZ4x3lYjtozWrfsB2AyVTMwwiMo2joDInqqzXhKetOdVnJqEwkabXj6Cre3Xa-ApPmlTbBMw6DUxVnUapr2cM0ka82N-Z-ek-2gCLaGRL6D3ixOK9SvN3Mjb0xAPslajiN1VHnHB1_yC7bigXaTzU2dTJvbSrTIW2wZnnuh4axVh7PkrBg7Ar0jaWXSuIhKlJ5ABdMPxm4fONjrMnh\">캐나다 보복 관세 트럼프 봄바디어</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsS-H7-DvEDGHa8s7gDe8tI6vEMHg5RbVKMdVhMhMO5-FaAmlAoPiGYPhmT0vv64yxGaOy9ksNrpF6PYLUrN7dFlsR-d2SjbcKKuL93Fc864HFQgtkc2Fgt-BKcS55Jtkx5BEbPCaHI8zUDJKZLwZaA6CZBqJS-Rtxp_Ty3nCCKPLM3CKTlWiiOBA7mmUkUI_Q9uyjPGE1Em12wflpD2g3GndmBUcsuo5g6xS7gW7b5sFcnWmkPbNCYM9ZtaN3yJ3dRPhG45qxelxXcEey6j9cU6zge2l3z5XkadjLjCRrwebUaU4BQKj2pF2Nee9KTdHLhPHdvLHDtQ4_NC_yWrCrBm5Ns9OCrE9RedRJXYEexFHCK4Cpm_JC_xLLgX3QuwW4i0nbaGWVg1t67JOHrACjn_ftXRgREBzBLWA8jC09\">러시아 우크라이나 종전 협상 트럼프 특사 3자회담</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmYX9A_VGzOmBj0iiV_UYlsepAae22K1EWZYdGCwXSqOT8kjOVMsRRq9zwsmVjJ0mxYiDBM1AI93y7oG-bxQDyac_L-mAnZ8j0vPL3NRRJE7dO_U1bLAa9H8D1Ht3l4ekjhfPl3CGV89iiM23KrRTYiztyK4dGYGtBiAd8glTzhT4IufebCxijPTfehHsxjS-BDmmqxdzJo_152NyLEfjUmVh4EpRfmaHvu-nbEn4lbn9pIeZksl4mk0R2De-673BP9k6g-1jtsBOCRpB6bnjbuoFuHDbtSftOvoV-MvXq7UJcrLfR8TalSUgkpD_x-VAVSMLbo4NK1g==\">독일 극우 AfD 주정부 집권 방화벽</a>\n  </div>\n</div>"
+      "search_entry_point_rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBH94FzekZ9ZGiYJnqCz_8UnLEK38QHAaY6zdkZYmb6o-LSr72DT8uUcNEidDbeLWMyp-viZgvGH3dNx53VPUvDghbnfjWz5krmaXoJ4QJIcjlCSuyVpIUE1tuUVBEvf0sbj62gfw0bNwKAv4_CtSLBFK0O21Gx7tfRBxrZlsUR2TjvTNTE3DigVCHl3Fy2dvDMIKjUZtLUU9FqQVRss7Wm2PTb8s2VSTjMmk9qSRKeTmsby8ZdBa0r2cbWfSap3cNcPJdEEL8RdxNViyQWG0TvzaY57pZlhlRkSsCGz0evVgG8gVz\">개헌 정점식 김민석 연설 2026</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzYHSGPTepar2Dtho1gfF8wC2zH2L_34fMvoJYtwlOYV5ax9T84H3GDGz6bOw9rWSE7I-vEdi57coVex3IYdIt9MLAIdcO2QoCRODHsW5rR8oveXsxsO3zgPv_QmNIfxJ-K7XRM3YUn7fSjUwwyhyWD0iHwHPbMZ38Qc_fo34ZuArFd8Q8wO04trUA_j1eVEYA7hTsuWCtcmcq6QGsrIbkGQ4Cdd9yJNn7KFIDthu0auxgWMaHA215JAoOxpS-_Lue7oC8PegzdI1QyAMZJ_xrn5xeNIABYjxbFMArAtyLAcE-hUDeFthFRqNkBtgrTG1eJedtujuyLyAOmzAWnvXSHHuHNjvZiJHkmYQeIJJXoMSnaPGCnTXAZNXxg5c=\">노란봉투법 쟁의 지침 성과급 파업 불법 2026</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9GlNJsav8D5mFW2kwDqIi_k1N98k2YJ4dkFd9wY5sYx58kzjroEjPZ8hNPQhXjdg70zyQ-gQaBtB9TLl6zlQ-WGpgW4uQeZL3LrMBdgEX2wQcY524_SfhkFd-rwPw2TDxozCimODaijfgRqywlGa8gaFP3cRaC4yWnZitpnfw7Gus6kgsbBsQcbkDrzHfzSkOFETxXgwbIRsete6JvnXAdtXSE9aFZBKpsL8inzQJVrfhBiVKr4LzejwUruLCZZI7HQY8UyMyVvMFue6KsjsxzdNg8hj8yd-CsfxF7ET_N3KgCp5m2sdhhqhY-52mRGS_KIhX82RSSUFwGKBcekjLqfbMblZaL_z6b-w=\">호르무즈 해협 파병 한국 이란 경고 2026</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfSuhT1jdAuW5wvQc7v0Vg86lTd9KCSlEzSzcWZwLZSIqharzCrumbM6YWIEKn2I9LsLvjJ5BsXv5J5MZyKPlBc8BI_XkqyBIiDEebt1F4UtfZt16biSkOoKqWFtoqM-TjLs8_Ne0hE9nStB9zdy58I5cQCOOtUCgSgGgdF-H3EESZ1yKb5dVBH9g0nFRJRZvuaTEjcFd2GcbRaonNDuP3H0JI18wJfjZk4YsaCVHc6dH2Dw8B6CTWc2QuCHl7APVWKco9Ds3lCMGBobWbKTGRjBtM5tkD6FbkDS28Uuoo-SwvMT6WkMzE17f_4iVToUicdv1StTVxCwAMSHDEMnD3q13g7MnVl0M20l4=\">호르무즈 파병 미국 요구 이란 경고 2026</a>\n  </div>\n</div>"
     },
     "performance": {
-      "research_seconds": 17.2,
-      "timeline_seconds": 10.724,
-      "audit_seconds": 0,
-      "total_seconds": 111.447,
-      "model_call_count": 2,
+      "research_seconds": 15.602,
+      "timeline_seconds": 8.999,
+      "audit_seconds": 3.882,
+      "total_seconds": 85.652,
+      "model_call_count": 3,
       "generate_attempt": 1
     },
-    "published_at": "2026-09-08T10:01:51.715000+09:00",
-    "updated_at": "2026-09-08T10:01:51.715000+09:00",
-    "updated_by_workflow_id": "WF-20260908-100123-D4AF",
-    "created_at": "2026-08-21T16:57:41.967000+09:00",
-    "last_merge_similarity": 0.85,
-    "last_merged_from_workflow_id": "WF-20260908-100123-D4AF",
+    "published_at": "2026-09-08T14:01:26.468000+09:00",
+    "updated_at": "2026-09-08T14:01:26.468000+09:00",
+    "updated_by_workflow_id": "WF-20260908-140057-9DD0",
+    "created_at": "2026-08-24T10:08:23.016000+09:00",
+    "last_merge_similarity": 0.48,
+    "last_merged_from_workflow_id": "WF-20260908-140057-9DD0",
     "mode": "merged"
   },
   {
@@ -5068,5 +5258,910 @@
     "updated_at": "2026-08-24T16:34:12.737000+09:00",
     "updated_by_workflow_id": "WF-20260824-163346-EC80",
     "created_at": "2026-08-24T16:34:12.737000+09:00"
+  },
+  {
+    "_id": "WF-20260824-163346-DCEB",
+    "workflow_id": "WF-20260824-163346-DCEB",
+    "schema_version": "news-timeline-fast-1.0",
+    "topic_id": "TOPIC-001",
+    "topic_title": "1주택자 거주·비거주 부동산 세제와 주택 규제 시장 구도",
+    "topic_summary": "정부의 실거주 중심 부동산 세제 개편 추진에 대해 비거주 1주택자 징벌 과세라는 반발과 여권 내 제동이 이어지면서 종합부동산세 및 양도소득세 수정안 마련을 위한 당정 간 협의가 본격화하고 있습니다.",
+    "topic_section": "부동산",
+    "selection_reason": "지정된 주제 '1주택자 거주·비거주 부동산 세제와 주택 규제 시장 구도'에 맞춰 0단계 확장형 서사 컨테이너를 유지하고 관련 근거 문서 인벤토리를 구조화함.",
+    "current_status": {
+      "as_of": "2026-08-24",
+      "summary": "고위 당정청 협의에서 여당의 비거주 1주택자 종부세 차등 과세 철회 요청을 정부가 수용함에 따라, 기본공제 재상향 및 양도세 예외 인정 범위 확대를 포함한 세제 개편 수정안 마련 작업이 진행 중입니다.",
+      "source_ids": [
+        "SRC-001"
+      ],
+      "confidence": "high"
+    },
+    "timeline_status": "complete",
+    "timeline_start_at": "2026-08-24",
+    "timeline_end_at": "2026-08-24",
+    "timeline": [
+      {
+        "sequence": 1,
+        "event_id": "EVT-001",
+        "event_at": "2026-08-24",
+        "headline": "당정청, 여당 요청 수용해 비거주 1주택자 부동산 세제 개편 수정 착수",
+        "description": "고위 당정청 협의에서 여당이 비거주 1주택자에 대한 종합부동산세 차등 과세 방침 철회를 강력히 요청했습니다. 이에 따라 정부는 종부세 기본공제 재상향 및 양도소득세 예외 인정 범위 확대 등을 골자로 하는 세제 수정안 작성 작업에 전격 착수했습니다.",
+        "source_ids": [
+          "SRC-001"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "source_index": [
+      {
+        "source_id": "SRC-001",
+        "grounding_id": "GND-003",
+        "title": "investing.com",
+        "publisher": "인베스팅닷컴",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://kr.investing.com/news/stock-market-news/article-2071735",
+        "published_at": "2026-08-24",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-003",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWE7Y6Bl2OGW7ThxrnOZ5q8X_7KstlWibs927yEkW_arp2cubfMkZtQC8RZj7A5n0KNoqDaS_nX2rf70AKekNPc1wupTetr979dx7vJi3Ozn44KlBIOxH1gBAsdy7-ZJgFICPzC1p1YbErswG7fchTf2Xr2j3b_7_H",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWE7Y6Bl2OGW7ThxrnOZ5q8X_7KstlWibs927yEkW_arp2cubfMkZtQC8RZj7A5n0KNoqDaS_nX2rf70AKekNPc1wupTetr979dx7vJi3Ozn44KlBIOxH1gBAsdy7-ZJgFICPzC1p1YbErswG7fchTf2Xr2j3b_7_H",
+          "resolved_url": "https://kr.investing.com/news/stock-market-news/article-2071735",
+          "canonical_url": null,
+          "page_title": null,
+          "http_status": 403,
+          "content_type": "text/plain",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "restricted",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      }
+    ],
+    "conflicting_information": [
+      "비거주 1주택 종부세 기본공제 조정 수치와 관련해 12억 원 원상 복귀안과 14억 원 일원화안이 당정 협의 과정에서 혼재하여 논의 중입니다."
+    ],
+    "missing_information": [
+      "이번 주 발표될 최종 당정 수정안에서 비거주 1주택 종부세 기본공제가 최종 확정되는 수치 및 세부 양도세 예외 인정 범위",
+      "사건은 1개입니다. 권장 최소 5개보다 적습니다.",
+      "출처는 1개입니다. 권장 최소 6개보다 적습니다."
+    ],
+    "research_status": "partial",
+    "audit_status": "approved",
+    "prompt_version": "v2",
+    "google_search": {
+      "web_search_queries": [
+        "속보 뉴스 2026년 8월 24일",
+        "오늘 주요 뉴스 2026년 8월 24일",
+        "국제 뉴스 2026년 8월 24일",
+        "사회 뉴스 2026년 8월 24일",
+        "1주택자 종합부동산세 비거주 2026년 8월",
+        "미 재무부 이란 제재 2026년 8월 베선트",
+        "미국 캐나다 관세 50% 마크 카니 2026년 8월",
+        "공공기관 2차 지방이전 금융위원회 2026년 8월"
+      ],
+      "search_entry_point_rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5X5iZko08xq1yCieUcfx7sjavPCorGNzvQGrC10VvQg1JjAg6YFISiu33IziVx0Ux2PwsaFLFoCeRh9cW_fBnzjH80eP2BJbrxybGw5MnhnQl9WG7Fd_Km6qD3QK0XxThXPpfAqn1Q9wcYBSw3BdrdsV7zJM-ZEJQ8-8RIfLbwOHdMaWUu983qo-eHSM6wAMGJq8RSYneAzOCZk5J-GAPTWeHr1l4xX9Bn_uKhHzrEhGmWIQ80QbLk54aBfnCDuWNC5hwTNeHo_YuiIp8d-d3QUJg590FYxnPihU-WC0p2bs1cdP8LTMu2eGY5_JWfXqt7__tHZ8Xk9CIqFgFZ8oGDjqepdLgx_1sK81J345VdNptgWKJS8a4wHnPf1u2\">공공기관 2차 지방이전 금융위원회 2026년 8월</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHlv6vdAejJUJ36iRHG1P2paQPVSz07qrBJqogMmA-X_z1LcaG8iUwpXtb1rhFNO6xfSbEPKwll43HcjppINoq5M7YLkC_j0mYlP_jaCCewLQ2aNBwoF6s8SQFEkc1kl0AU8UMdCgVCLhsk9cCMQwvT_uVbQIC9LW_AtqGNbN7uoF3IV_72tdq73886nAVQMGPHsD2zPxxGqK74a1JDnHtLJYUwuIKyjoECvkDIugXE6e8xbDptK88wQ3JaEJmLMA5MKxsIgshS-CeX1TGKGCFRMpjyp76vmVJxs49Wd_qgo0-qbNOzkRekCs1zd_LDIHMRRl1heUHRw7dOtENM4L6rARzdu1W1EupP\">미국 캐나다 관세 50% 마크 카니 2026년 8월</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjU7oa81GvDzXbld-TE6qrIuh4c1n_9czI_7-IKTuKDRegNpyGC69dIAZKFZgUqO7bo_NBFyEat_gaO02eqfXWNX90ZKeEGSOs7cesmW5AmwOb0e0F41PAYRHNU9wcxVtErurPTfgpD7uiRnNeYUwL4W8voNczACZzL4Huw1vlkAuERhRK0BoKC0awCInyVhv8UDbUeMV7R6uIesmLNA4eEa9BpWt70JcomBnHEP7YaVzZQJ_qSjbkaHWUUGEPdFWlAB1HGlN98-2hcK1c2_ULKEPGansfvmWwv7UjKT1jLA9yM902UBBMz1cE7mkxMTSVvpx39TR8jAHf9q7NnSzMFkSi2WmbzxqulV8=\">1주택자 종합부동산세 비거주 2026년 8월</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMs7Jk-845_AeqBc2yPkcOPq-yjhrhvDuuxjuH5Gi0I8KVSDe7yQlsvS1uPJ3JIb2-Jr8oJGxTwJDp6zZTTaHZMJD1KBBGroZIBAa3vw8Vnw4b7JJilJodUpSTADl6R7MkXW8wQxbglLUtHmJqUxFY5oRfCYbW_H3-TlhASgTIqqhZGtiMB3RD99OgoF0kAZMsvQ234-mo6vo0YiE-Y-fxC6GrIvDMsImActMSEhuJRYTXT5khtp6UjDYlROaDcmu0WI_bcpTF_C-QvROythnOK3146ChRL-CGgNCg2szYHS0OxDyF8CUGa1VjnaTT8fTDdM7e10eexhZnIvEcvPGtXEzH\">미 재무부 이란 제재 2026년 8월 베선트</a>\n  </div>\n</div>"
+    },
+    "performance": {
+      "research_seconds": 8.987,
+      "timeline_seconds": 4.432,
+      "audit_seconds": 2.809,
+      "total_seconds": 62.062,
+      "model_call_count": 3,
+      "generate_attempt": 1
+    },
+    "published_at": "2026-08-24T16:34:02.963000+09:00",
+    "updated_at": "2026-08-24T16:34:02.963000+09:00",
+    "updated_by_workflow_id": "WF-20260824-163346-DCEB",
+    "created_at": "2026-08-24T16:34:02.963000+09:00"
+  },
+  {
+    "_id": "WF-20260824-144104-BB33",
+    "workflow_id": "WF-20260824-144104-BB33",
+    "schema_version": "news-timeline-fast-1.0",
+    "topic_id": "TOPIC-001",
+    "topic_title": "북미 통상 협정과 글로벌 관세·무역 갈등",
+    "topic_summary": "미국과 캐나다 간 통상 협상이 무산되면서 미국이 50% 관세를 즉시 발효하고 캐나다가 동급 규모의 맞불 보복 관세를 예고하는 등 북미 무역 갈등이 급격히 냉각되고 있습니다. 양국 정상 간 일시 유예 조치에도 불구하고 협상이 최종 결렬됨에 따라, 관세 집행 이후 미국 내에서도 물가와 고용을 둘러싼 역풍 경고가 확산하며 통상 갈등의 파장이 전방위로 이어지는 양상입니다.",
+    "topic_section": "경제",
+    "selection_reason": "지정 주제 '북미 통상 협정과 글로벌 관세·무역 갈등'에 맞춰 관련 타임라인과 출처를 단일 구조화 대상으로 정리했습니다.",
+    "current_status": {
+      "as_of": "2026-08-24",
+      "summary": "트럼프 미국 대통령이 캐나다의 보복 관세 방침에 반발을 이어가는 가운데, 관세 집행 직후 미국 내부 정치권과 기업들을 중심으로 물가 상승과 일자리 위협 등 경제적 역풍에 대한 우려가 급증하고 있습니다.",
+      "source_ids": [
+        "SRC-006"
+      ],
+      "confidence": "high"
+    },
+    "timeline_status": "complete",
+    "timeline_start_at": "2026-08-18",
+    "timeline_end_at": "2026-08-24",
+    "timeline": [
+      {
+        "sequence": 1,
+        "event_id": "EVT-002",
+        "event_at": "2026-08-18",
+        "headline": "미·캐나다 정상 통화로 관세 부과 사흘 일시 유예 합의",
+        "description": "미국과 캐나다 양국 정상은 연쇄 통화를 실시하고 막판 협상 문안 조율을 진행하기 위해 당초 예정됐던 관세 부과 조치를 사흘간 일시 유예하기로 합의했습니다.",
+        "source_ids": [
+          "SRC-002"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 2,
+        "event_id": "EVT-003",
+        "event_at": "2026-08-22",
+        "headline": "북미 무역협상 최종 결렬…美, 캐나다산 수입품에 50% 관세 발효",
+        "description": "사흘간의 유예 기간에도 불구하고 양국 간 막판 무역협상이 최종 결렬되었습니다. 이에 따라 미국은 약 200억 달러 규모의 캐나다산 수입품에 대해 50% 관세를 즉시 발효하며 통상 압박 수위를 최고조로 끌어올렸습니다. 다만 결렬 원인을 두고 미국 측은 캐나다의 자동차·트럭 관련 신규 요구를 지적한 반면, 캐나다 측은 미국의 프랑스어 문화 보조금 및 소권 제약 기습 추가를 원인으로 내세우며 대립했습니다.",
+        "source_ids": [
+          "SRC-003"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 3,
+        "event_id": "EVT-004",
+        "event_at": "2026-08-23",
+        "headline": "카니 캐나다 총리, 대미 협상 중단 및 동일 규모 보복 관세 선언",
+        "description": "미국의 50% 관세 폭탄 직후 마크 카니 캐나다 총리는 미국과의 무역 협상 중단을 전격 선언했습니다. 카니 총리는 이에 대응해 오는 9월 8일부터 미국산 제품을 대상으로 같은 규모의 맞불 보복 관세를 부과하겠다고 발표하며 강대강 맞대응에 나섰습니다.",
+        "source_ids": [
+          "SRC-004",
+          "SRC-005"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 4,
+        "event_id": "EVT-005",
+        "event_at": "2026-08-24",
+        "headline": "트럼프 반발 지속 속 미국 내 물가·고용 역풍 경고 확산",
+        "description": "캐나다의 맞불 보복 조치 선언에 트럼프 대통령이 강하게 반발하는 한편, 미국 관세 집행의 파장이 자국 경제로 전이되고 있습니다. 미국 내 정치권과 산업계·기업들 사이에서는 이번 관세 조치가 소비자 물가를 끌어올리고 일자리를 위협할 수 있다는 경고와 우려가 급속히 확산하고 있습니다.",
+        "source_ids": [
+          "SRC-006"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "source_index": [
+      {
+        "source_id": "SRC-002",
+        "grounding_id": "GND-013",
+        "title": "발효 2시간 앞두고…트럼프 \"캐나다산 50% 관세 부과 사흘간 중단\" - 머니투데이",
+        "publisher": "머니투데이",
+        "source_type": "news_media",
+        "country": "대한민국",
+        "url": "https://www.mt.co.kr/world/2026/08/19/2026081915223895497",
+        "published_at": "2026-08-19",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-013",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhGFgfQ9WTtgXm8G-rqfHJN-mhSmmXhSe1OhUKmA0EOIEMH6qXWn0SpQhjZOAq6ZLvIZfgeWHv6xw_J2lmi89lEhG3_5ntaM3hERRmmz9Xg9fblx29_RIbZiziYJ_-Le9ZH3rKTjE7tMFTwdPs_xoHJY9UzA==",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhGFgfQ9WTtgXm8G-rqfHJN-mhSmmXhSe1OhUKmA0EOIEMH6qXWn0SpQhjZOAq6ZLvIZfgeWHv6xw_J2lmi89lEhG3_5ntaM3hERRmmz9Xg9fblx29_RIbZiziYJ_-Le9ZH3rKTjE7tMFTwdPs_xoHJY9UzA==",
+          "resolved_url": "https://www.mt.co.kr/world/2026/08/19/2026081915223895497",
+          "canonical_url": "https://www.mt.co.kr/world/2026/08/19/2026081915223895497",
+          "page_title": "발효 2시간 앞두고…트럼프 \"캐나다산 50% 관세 부과 사흘간 중단\" - 머니투데이",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-003",
+        "grounding_id": "GND-010",
+        "title": "美, 캐나다에 50% 관세 발효…막판 협상 결렬 - 머니투데이",
+        "publisher": "머니투데이",
+        "source_type": "news_media",
+        "country": "대한민국",
+        "url": "https://www.mt.co.kr/world/2026/08/22/2026082213510287805",
+        "published_at": "2026-08-22",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-010",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZk7-kbTRISndMh5HYWAiymxD33-rm7syY4U81gqYDBgVjq3Zm4d3HBNuao7tkfYU3EXNFJ8dh3MiDYrMytWvVLSeWEbBmxtt_ymhaw9_9878KVxrvcuPwG8Ffz077WUwsKssv2YcEe0D2ijgYq1C1KSUl",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZk7-kbTRISndMh5HYWAiymxD33-rm7syY4U81gqYDBgVjq3Zm4d3HBNuao7tkfYU3EXNFJ8dh3MiDYrMytWvVLSeWEbBmxtt_ymhaw9_9878KVxrvcuPwG8Ffz077WUwsKssv2YcEe0D2ijgYq1C1KSUl",
+          "resolved_url": "https://www.mt.co.kr/world/2026/08/22/2026082213510287805",
+          "canonical_url": "https://www.mt.co.kr/world/2026/08/22/2026082213510287805",
+          "page_title": "美, 캐나다에 50% 관세 발효…막판 협상 결렬 - 머니투데이",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-004",
+        "grounding_id": "GND-009",
+        "title": "美·캐나다, 50% 관세 맞불…카니 \"미국과 전쟁중\" - 매일경제",
+        "publisher": "매일경제",
+        "source_type": "news_media",
+        "country": "대한민국",
+        "url": "https://www.mk.co.kr/news/world/12134214",
+        "published_at": "2026-08-23",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-009",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8VWWjOqwwNobbbVwL0PFRWG9vFUoHOQDMmVyENlQcr6F-2Ude8OB48UQQLXEbe1j--3f0eIS3eLFnB-OR0JR9n7GMN6eYCcyxBvB5mFcuP6O9_1QGgomNznJ1OZY4Eb0t8Q==",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8VWWjOqwwNobbbVwL0PFRWG9vFUoHOQDMmVyENlQcr6F-2Ude8OB48UQQLXEbe1j--3f0eIS3eLFnB-OR0JR9n7GMN6eYCcyxBvB5mFcuP6O9_1QGgomNznJ1OZY4Eb0t8Q==",
+          "resolved_url": "https://www.mk.co.kr/news/world/12134214",
+          "canonical_url": "https://www.mk.co.kr/news/world/12134214",
+          "page_title": "美·캐나다, 50% 관세 맞불…카니 \"미국과 전쟁중\" - 매일경제",
+          "http_status": 200,
+          "content_type": "text/html;charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-005",
+        "grounding_id": null,
+        "title": "“전쟁 해보자”…캐나다, 미국 50% 관세폭탄 직후 ‘같은 규모’ 맞불 관세",
+        "publisher": "한겨레",
+        "source_type": "news_media",
+        "country": "대한민국",
+        "url": "https://www.hani.co.kr/arti/international/america/1274150.html",
+        "published_at": "2026-08-23",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": null,
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8TC7_6wkxCHdnuoCqvEsdV3Imk0K2zTMVsrZvJs5txotGSPsX7eohWAis674v1E5zrsXdb8AWcdsDr0Cdt3eqbtPuwbMSScbkAY7QRVX3dv83GeLrDDkRz2FyPx1NgMufEslVW_jNlT7rWZXPO2PSC4Wf8JSSS6Y8",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8TC7_6wkxCHdnuoCqvEsdV3Imk0K2zTMVsrZvJs5txotGSPsX7eohWAis674v1E5zrsXdb8AWcdsDr0Cdt3eqbtPuwbMSScbkAY7QRVX3dv83GeLrDDkRz2FyPx1NgMufEslVW_jNlT7rWZXPO2PSC4Wf8JSSS6Y8",
+          "resolved_url": "https://www.hani.co.kr/arti/international/america/1274150.html",
+          "canonical_url": "https://www.hani.co.kr/arti/international/america/1274150.html",
+          "page_title": "“전쟁 해보자”…캐나다, 미국 50% 관세폭탄 직후 ‘같은 규모’ 맞불 관세",
+          "http_status": 206,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 1.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-006",
+        "grounding_id": "GND-015",
+        "title": "트럼프 '캐나다 관세폭격' 美서 역풍…\"물가 올리고 일자리 위협\" - 뉴스1",
+        "publisher": "뉴스1",
+        "source_type": "news_media",
+        "country": "대한민국",
+        "url": "https://www.news1.kr/world/international-economy/6267079",
+        "published_at": "2026-08-24",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-015",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQLovVMMf-Eq0syrJAdFEP5eL4RtBq49vkWxtzk1RlS2KiuTBTg_sEo6_xg0yJFcq2tQvtpzCp3uss4nPvJi1KM7eCPXwD4DknMITw0EgD4L0hg-O9UdJY38_GG01QSHC3k4e5tPq8AUMdyHpqhOcyenbB",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQLovVMMf-Eq0syrJAdFEP5eL4RtBq49vkWxtzk1RlS2KiuTBTg_sEo6_xg0yJFcq2tQvtpzCp3uss4nPvJi1KM7eCPXwD4DknMITw0EgD4L0hg-O9UdJY38_GG01QSHC3k4e5tPq8AUMdyHpqhOcyenbB",
+          "resolved_url": "https://www.news1.kr/world/international-economy/6267079",
+          "canonical_url": "https://www.news1.kr/world/international-economy/6267079",
+          "page_title": "트럼프 '캐나다 관세폭격' 美서 역풍…\"물가 올리고 일자리 위협\" - 뉴스1",
+          "http_status": 206,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0588,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      }
+    ],
+    "conflicting_information": [
+      "북미 무역협상 막판 결렬 원인에 대해 미국 측(USTR)은 캐나다의 자동차·트럭 관련 신규 요구를 지적한 반면, 캐나다 측은 미국의 프랑스어 문화 보조금 및 소권 제약 기습 추가를 원인으로 주장하며 책임 소재가 대립함.",
+      "SRC-001: grounding 또는 실제 문서로 URL을 검증하지 못해 제외했습니다.",
+      "EVT-001: 검증된 출처가 남지 않아 사건을 제외했습니다."
+    ],
+    "missing_information": [
+      "9월 8일 예정된 캐나다의 대미 보복 관세 최종 집행 여부 및 완성차·철강 등 세부 품목별 파급 수치",
+      "북미무역협정(USMCA) 재협상 또는 갱신 회담의 공식 재개 일정",
+      "사건은 4개입니다. 권장 최소 5개보다 적습니다.",
+      "출처는 5개입니다. 권장 최소 6개보다 적습니다."
+    ],
+    "research_status": "partial",
+    "audit_status": "approved",
+    "prompt_version": "v2",
+    "google_search": {
+      "web_search_queries": [
+        "오늘 주요 뉴스 2026년 8월 24일",
+        "주요 속보 뉴스 2026년 8월",
+        "최근 속보 이슈 뉴스 2026",
+        "주요 뉴스 속보 2026년 8월 23일 24일",
+        "\"종부세\" \"1주택자\" \"고위당정협의회\" 2026년 8월",
+        "\"미국\" \"캐나다\" \"관세\" 50% 2026년 8월",
+        "\"이란\" \"제재\" \"미국\" 2026년 8월",
+        "\"제주\" \"실종\" \"허위 종결\" 2026년 8월",
+        "\"세제개편안\" \"종부세\" \"12억\" \"14억\" \"9억\" 2026년 7월",
+        "\"세제개편안\" \"비거주\" \"1주택\" \"종부세\" 2026년",
+        "\"관세법 338조\" \"캐나다\" 50% 2026년",
+        "\"트럼프\" \"캐나다\" \"관세\" 2026년 7월",
+        "\"미국\" \"이란\" \"제재\" \"최고 수준의 압박\" 2026년 8월",
+        "\"미국\" \"이란\" \"호르무즈\" 2026년 8월"
+      ],
+      "search_entry_point_rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbaC8s7-VYtXkRKzLg28OCXYDBmFIGrtAlL0QiczG2WIU6wpcoip5c2fpCSb5GDQdgv7wPv819QXaCU7XwQtxJM_tUAzqRQ3vnWsDMyky8LoBA5YCId3LmJlQGXdSdc8cB9VPH6cqy4BhSOv2w-tgarrLLKuAMhz4shsW-Q_UTgbY_6HowXIt-f3TDGzOutnP7zUhS0eLeiOA4HPwTHUzc4NZYaTeo85b2x6souEv1VnoCmM-S8wigks2H_3bmDLqgXi_QvqL5hAn-B_cgYqTSOKaRoF8HfDYeXUUXkK99p3AC12h83zb03c7zTd55AsP1C-GkNUo1kyg=\">&quot;미국&quot; &quot;이란&quot; &quot;호르무즈&quot; 2026년 8월</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqZRx9_Kgu9Pk4QdYg1uq6sMFakqrtwkaCbWzcjU98wQFQvCxUpznamfPh3Xt7uXueE9bqvQcq1gg0H4chd0a47hMfaW9jt7AGMuzT3DsrYXputuRoqXTKqtNmL9CLplDq0rJsbpdyoa015LRHZNJ-raqOIwoWoxG2ARERaUjxjUVE6h_Ig-h7DzBiRTOA9F0uVDLxYJn99EtnaDnPiSUYVJhAj_NFfbwv92q7GxJ51EHp-i3lFVjQAlPmpZTqaNy89sw6si1xWXdg7-z8o6hcURdognLuh6PcJdmLkI0Ut_ArH_d1Ely1XDEFnRyQeVfvjV6ENQ6aXhnt2MSY_uMbh3o-xnPTisWOj7psYsxCUfeb83wWWZz_DB7uw9q-K7WL0XpTZmQtCNryZ-c8fP4=\">&quot;미국&quot; &quot;이란&quot; &quot;제재&quot; &quot;최고 수준의 압박&quot; 2026년 8월</a>\n  </div>\n</div>"
+    },
+    "performance": {
+      "research_seconds": 22.148,
+      "timeline_seconds": 8.33,
+      "audit_seconds": 6.69,
+      "total_seconds": 120.469,
+      "model_call_count": 3,
+      "generate_attempt": 1
+    },
+    "published_at": "2026-08-24T14:41:41.662000+09:00",
+    "updated_at": "2026-08-24T14:41:41.662000+09:00",
+    "updated_by_workflow_id": "WF-20260824-144104-BB33",
+    "created_at": "2026-08-24T14:41:41.662000+09:00"
+  },
+  {
+    "_id": "WF-20260824-144104-0873",
+    "workflow_id": "WF-20260824-144104-0873",
+    "schema_version": "news-timeline-fast-1.0",
+    "topic_id": "TOPIC-001",
+    "topic_title": "수도권 주택 공급·세제 정책과 부동산 시장",
+    "topic_summary": "재정경제부의 2026년 세제개편안 발표 이후 비거주 1주택자에 대한 종부세 중과 방침을 둘러싸고 조세 저항과 반발이 심화되었습니다. 이에 여당이 고위당정협의회에서 차등 과세 철회를 강하게 요구하면서 정부와 여당은 거주·비거주 구분 폐지 및 세제 보완책 검토에 착수했습니다.",
+    "topic_section": "부동산",
+    "selection_reason": "지정 주제 '수도권 주택 공급·세제 정책과 부동산 시장'에 대한 거시적 서사 구조화 요청에 따름.",
+    "current_status": {
+      "as_of": "2026-08-24",
+      "summary": "정부와 여당은 비거주 1주택자에 대한 종부세 차등 과세 방침에 대한 반발이 거세지자 1주택자 거주·비거주 구분을 하지 않기로 공감대를 형성했습니다. 당정은 실거주 14억 원, 비거주 12억 원 공제 등 구체적인 세제 보완 수정안 검토에 착수한 상태입니다.",
+      "source_ids": [
+        "SRC-003",
+        "SRC-004"
+      ],
+      "confidence": "high"
+    },
+    "timeline_status": "partial",
+    "timeline_start_at": "2026-08-03",
+    "timeline_end_at": "2026-08-24",
+    "timeline": [
+      {
+        "sequence": 1,
+        "event_id": "EVT-001",
+        "event_at": "2026-08-03",
+        "headline": "재정경제부, 실거주 우대 및 비거주 1주택 종부세 강화 개편안 발표",
+        "description": "재정경제부가 실거주 1주택자에 대한 우대와 비거주 1주택 및 초고가주택 보유세 강화를 골자로 하는 '2026년 세제개편안'을 발표했습니다. 개편안에 따르면 실거주 1주택자의 종부세 공제액은 기존 12억 원에서 14억 원으로 상향 조정되는 반면, 비거주 1주택자의 공제액은 9억 원으로 하향 조정됩니다.",
+        "source_ids": [
+          "SRC-001"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 2,
+        "event_id": "EVT-002",
+        "event_at": "2026-08-23",
+        "headline": "더불어민주당, 당정협의회에서 비거주 1주택자 종부세 차등 철회 요구",
+        "description": "정부의 세제개편안 발표 이후 비거주 1주택자에 대한 과세 강화에 조세 저항이 격화되자 더불어민주당 지도부가 대응에 나섰습니다. 더불어민주당은 제10차 고위당정협의회에서 1주택자에 대한 거주 및 비거주 구분을 없애고 종부세 차등 방침을 철회할 것을 정부에 강하게 요구했습니다.",
+        "source_ids": [
+          "SRC-002"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 3,
+        "event_id": "EVT-003",
+        "event_at": "2026-08-24",
+        "headline": "당정, 1주택자 거주·비거주 구분 폐지 및 세제 보완책 검토 착수",
+        "description": "여당의 강력한 철회 요구에 따라 정부와 청와대, 여당은 1주택자의 거주·비거주 구분을 하지 않기로 공감대를 형성했습니다. 이에 따라 당정은 종부세 공제액을 원상복구하거나 실거주 14억 원 및 비거주 12억 원 공제안 등 세부적인 보완 수정안 검토에 착수했습니다.",
+        "source_ids": [
+          "SRC-003",
+          "SRC-004"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "source_index": [
+      {
+        "source_id": "SRC-001",
+        "grounding_id": "GND-005",
+        "title": "거주용 1주택, 시가 20억 원까지 종부세 과세 대상서 제외 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+        "publisher": "재정경제부/정책브리핑",
+        "source_type": "official",
+        "country": "KR",
+        "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148969278",
+        "published_at": "2026-08-03",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-005",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8AyJ5XxKDqwa_YUCtYxf23rz05U2EJCDeNxDmryNCAAW0_yyXk53EKoD823fUxypdkL60tJs-lrcMmy5hE5MibYop_zx9KI7TzueoxNzPh18lq85kxrFxxaGLDPPPlGs1I8tlO2oatGg0iLSpyOPNfWcJ6fl-yw==",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8AyJ5XxKDqwa_YUCtYxf23rz05U2EJCDeNxDmryNCAAW0_yyXk53EKoD823fUxypdkL60tJs-lrcMmy5hE5MibYop_zx9KI7TzueoxNzPh18lq85kxrFxxaGLDPPPlGs1I8tlO2oatGg0iLSpyOPNfWcJ6fl-yw==",
+          "resolved_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148969278",
+          "canonical_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148969278",
+          "page_title": "거주용 1주택, 시가 20억 원까지 종부세 과세 대상서 제외 - 정책뉴스 | 뉴스 | 대한민국 정책브리핑",
+          "http_status": 200,
+          "content_type": "text/html;charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-002",
+        "grounding_id": "GND-006",
+        "title": "\"비거주 1주택은 투기인가?\" 정부여당의 딜레마",
+        "publisher": "Daum 뉴스",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://v.daum.net/v/9rgB8o5TWF",
+        "published_at": "2026-08-23",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-006",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTGYSkwsZ4P11hn2OleVQMJwXgoKLMq_VY3eVmIX-wPOfx0D8dI0jh0haBq46yBg1k3GmxUiu6WIug7ThjQWyNdzJeq01DYOiumzuS413G4Zmj8lxpAc9oqQ==",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTGYSkwsZ4P11hn2OleVQMJwXgoKLMq_VY3eVmIX-wPOfx0D8dI0jh0haBq46yBg1k3GmxUiu6WIug7ThjQWyNdzJeq01DYOiumzuS413G4Zmj8lxpAc9oqQ==",
+          "resolved_url": "https://v.daum.net/v/9rgB8o5TWF",
+          "canonical_url": "https://v.daum.net/v/9rgB8o5TWF",
+          "page_title": "\"비거주 1주택은 투기인가?\" 정부여당의 딜레마",
+          "http_status": 200,
+          "content_type": "text/html;charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-003",
+        "grounding_id": "GND-008",
+        "title": "한국의 뉴스 채널 YTN (채널24)",
+        "publisher": "YTN",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://www.ytn.co.kr/_ln/0102_202608241015299320",
+        "published_at": "2026-08-24",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-008",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5LdboauFYoA1iXXEPXFSz91lndFWMXBjQVc1IYyoa6zI47fQm0MvIUST3KXpvzNJrlQ52XFkTNqRhDmzEQZR3-hwU4y8yqBwa3ykd1zv4V8-6dWb97aZCtGm9xZYE6CmqdAMONao99tcdUVRmDWdpj4E72-83QrN7EYWFCpsuQALyAlpWEhc=",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5LdboauFYoA1iXXEPXFSz91lndFWMXBjQVc1IYyoa6zI47fQm0MvIUST3KXpvzNJrlQ52XFkTNqRhDmzEQZR3-hwU4y8yqBwa3ykd1zv4V8-6dWb97aZCtGm9xZYE6CmqdAMONao99tcdUVRmDWdpj4E72-83QrN7EYWFCpsuQALyAlpWEhc=",
+          "resolved_url": "https://www.ytn.co.kr/_ln/0102_202608241015299320",
+          "canonical_url": "https://www.ytn.co.kr/_ln/0102_202608241015299320",
+          "page_title": "한국의 뉴스 채널 YTN (채널24)",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.2857,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-004",
+        "grounding_id": "GND-007",
+        "title": "당정, 1주택 종부세 손질 착수…실거주 14억 비거주 12억 공제 검토 - 뉴스1",
+        "publisher": "뉴스1",
+        "source_type": "news_agency",
+        "country": "KR",
+        "url": "https://www.news1.kr/politics/president/6267276",
+        "published_at": "2026-08-24",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-007",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVhTO3UEQ90mQUCKEomBAXzu5mjjZMnHMOXTBqcQHuW3r-g9XbRmxDR4YFUePCJc8EyGJJrajn3E5RVgtXQH1hWekZ_TTTLP4OTRN6UKTeXVWV4LU_5Dky0JPtE88yh91VIPiATC_Ue_yV",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVhTO3UEQ90mQUCKEomBAXzu5mjjZMnHMOXTBqcQHuW3r-g9XbRmxDR4YFUePCJc8EyGJJrajn3E5RVgtXQH1hWekZ_TTTLP4OTRN6UKTeXVWV4LU_5Dky0JPtE88yh91VIPiATC_Ue_yV",
+          "resolved_url": "https://www.news1.kr/politics/president/6267276",
+          "canonical_url": "https://www.news1.kr/politics/president/6267276",
+          "page_title": "당정, 1주택 종부세 손질 착수…실거주 14억 비거주 12억 공제 검토 - 뉴스1",
+          "http_status": 206,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0526,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      }
+    ],
+    "conflicting_information": [
+      "당정협의회에서 여당은 비거주 1주택자 공제액 하향안 철회를 요청했고 정부는 원상복구(12억 원) 또는 실거주와 동일 상향(14억 원) 등 여러 보완책을 두고 검토 중이나 구체적인 최종 수치는 확정되지 않았음."
+    ],
+    "missing_information": [
+      "사건은 3개입니다. 권장 최소 5개보다 적습니다.",
+      "출처는 4개입니다. 권장 최소 6개보다 적습니다."
+    ],
+    "research_status": "partial",
+    "audit_status": "approved",
+    "prompt_version": "v2",
+    "google_search": {
+      "web_search_queries": [
+        "오늘 주요 뉴스 2026년 8월 24일",
+        "주요 속보 뉴스 2026년 8월",
+        "최근 속보 이슈 뉴스 2026",
+        "주요 뉴스 속보 2026년 8월 23일 24일",
+        "\"종부세\" \"1주택자\" \"고위당정협의회\" 2026년 8월",
+        "\"미국\" \"캐나다\" \"관세\" 50% 2026년 8월",
+        "\"이란\" \"제재\" \"미국\" 2026년 8월",
+        "\"제주\" \"실종\" \"허위 종결\" 2026년 8월",
+        "\"세제개편안\" \"종부세\" \"12억\" \"14억\" \"9억\" 2026년 7월",
+        "\"세제개편안\" \"비거주\" \"1주택\" \"종부세\" 2026년",
+        "\"관세법 338조\" \"캐나다\" 50% 2026년",
+        "\"트럼프\" \"캐나다\" \"관세\" 2026년 7월",
+        "\"미국\" \"이란\" \"제재\" \"최고 수준의 압박\" 2026년 8월",
+        "\"미국\" \"이란\" \"호르무즈\" 2026년 8월"
+      ],
+      "search_entry_point_rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbaC8s7-VYtXkRKzLg28OCXYDBmFIGrtAlL0QiczG2WIU6wpcoip5c2fpCSb5GDQdgv7wPv819QXaCU7XwQtxJM_tUAzqRQ3vnWsDMyky8LoBA5YCId3LmJlQGXdSdc8cB9VPH6cqy4BhSOv2w-tgarrLLKuAMhz4shsW-Q_UTgbY_6HowXIt-f3TDGzOutnP7zUhS0eLeiOA4HPwTHUzc4NZYaTeo85b2x6souEv1VnoCmM-S8wigks2H_3bmDLqgXi_QvqL5hAn-B_cgYqTSOKaRoF8HfDYeXUUXkK99p3AC12h83zb03c7zTd55AsP1C-GkNUo1kyg=\">&quot;미국&quot; &quot;이란&quot; &quot;호르무즈&quot; 2026년 8월</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqZRx9_Kgu9Pk4QdYg1uq6sMFakqrtwkaCbWzcjU98wQFQvCxUpznamfPh3Xt7uXueE9bqvQcq1gg0H4chd0a47hMfaW9jt7AGMuzT3DsrYXputuRoqXTKqtNmL9CLplDq0rJsbpdyoa015LRHZNJ-raqOIwoWoxG2ARERaUjxjUVE6h_Ig-h7DzBiRTOA9F0uVDLxYJn99EtnaDnPiSUYVJhAj_NFfbwv92q7GxJ51EHp-i3lFVjQAlPmpZTqaNy89sw6si1xWXdg7-z8o6hcURdognLuh6PcJdmLkI0Ut_ArH_d1Ely1XDEFnRyQeVfvjV6ENQ6aXhnt2MSY_uMbh3o-xnPTisWOj7psYsxCUfeb83wWWZz_DB7uw9q-K7WL0XpTZmQtCNryZ-c8fP4=\">&quot;미국&quot; &quot;이란&quot; &quot;제재&quot; &quot;최고 수준의 압박&quot; 2026년 8월</a>\n  </div>\n</div>"
+    },
+    "performance": {
+      "research_seconds": 18.992,
+      "timeline_seconds": 5.516,
+      "audit_seconds": 4.867,
+      "total_seconds": 112.721,
+      "model_call_count": 3,
+      "generate_attempt": 1
+    },
+    "published_at": "2026-08-24T14:41:33.914000+09:00",
+    "updated_at": "2026-08-24T14:41:33.914000+09:00",
+    "updated_by_workflow_id": "WF-20260824-144104-0873",
+    "created_at": "2026-08-24T14:41:33.914000+09:00"
+  },
+  {
+    "_id": "WF-20260824-130148-D37B",
+    "workflow_id": "WF-20260824-130148-D37B",
+    "schema_version": "news-timeline-fast-1.0",
+    "topic_id": "TOPIC-001",
+    "topic_title": "비거주 1주택자 과세 완화 당정 협의 및 용산 캠프킴 부지 주택공급 법안(용산공원법) 국회 상정",
+    "topic_summary": "2026 세제개편안 발표 이후 비거주 1주택자에 대한 세 부담 강화 반발이 거세지자, 당정이 고위당정협의회를 열고 과세 차등 재검토 및 실거주 예외 인정 완화를 골자로 하는 수정안을 마련하기로 합의했다. 동시에 여야는 용산 캠프킴 부지에 2,500가구를 공급하기 위한 용산공원 조성 특별법 개정안을 8월 26일 국회 본회의에서 처리하기로 합의했다. 당정 간 종부세·양도세 세부 조율과 지자체 협의가 이어지는 가운데 법안 표결을 앞두고 막판 논의가 진행 중이다.",
+    "topic_section": "부동산",
+    "selection_reason": "대표 섹션: 부동산 / 부 태그: #세제개편안 #종부세·양도세 #비거주1주택 #용산공원특별법 #캠프킴 #수도권주택공급 / 1차 검증: 세제개편안 발표, 공급대책, 당정협의 수정안 및 본회의 법안 상정 등 연속 입법·정책 경과 추적 필수 / 2차 검증: 수도권 집값, 보유세·양도세 실효세율 및 핵심입지 주택공급에 직결되는 거시 이슈",
+    "current_status": {
+      "as_of": "2026-08-24",
+      "summary": "당정은 고위당정협의회 합의에 따라 1주택자에 대한 거주 및 비거주 구분 세제 수정 방침을 정하고 세부 조율을 이어가고 있다. 더불어민주당은 거주 여부에 따른 구분 폐지와 기본공제 통일을 요구하는 반면 재정 당국은 불가피한 사유에 한정한 예외 인정을 주장하며 이견을 조정 중이다. 한편 8월 26일 국회 본회의를 앞두고 용산 캠프킴 부지 2,500가구 공급을 위한 용산공원특별법 처리 관련 지자체 및 여야 간 논의도 본격화되고 있다. 용산공원 본체 부지 개발에 대해서는 서울시와 여야 일각에서 반대 입장을 유지하고 있어 상정 법안의 여파가 주목된다.",
+      "source_ids": [
+        "SRC-005"
+      ],
+      "confidence": "high"
+    },
+    "timeline_status": "complete",
+    "timeline_start_at": "2026-08-20",
+    "timeline_end_at": "2026-08-24",
+    "timeline": [
+      {
+        "sequence": 1,
+        "event_id": "EVT-001",
+        "event_at": "2026-08-20",
+        "headline": "여야 원내수석부대표, 용산 캠프킴 2,500가구 공급 위한 용산공원법 개정안 26일 본회의 처리 합의",
+        "description": "여야 원내운영수석부대표가 용산 캠프킴 부지에 2,500가구 규모의 주택 공급을 확대하기 위한 입법 조치에 전격 합의했다. 합의안은 해당 부지의 공원 및 녹지 확보 기준을 완화하는 용산공원 조성 특별법 개정안을 골자로 한다. 여야는 오는 8월 26일 열리는 국회 본회의에서 해당 개정안을 상정해 처리하기로 뜻을 모았다. 다만 이번 합의는 산재 부지인 캠프킴 개발에 한정된 것으로 용산공원 본체 부지의 주택지 전환에 대해서는 서울시 등에서 반대 입장을 보이고 있다.",
+        "source_ids": [
+          "SRC-002"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 2,
+        "event_id": "EVT-002",
+        "event_at": "2026-08-23",
+        "headline": "제10차 고위당정협의회, 비거주 1주택자 과세 차등 재검토 및 세제 보완 수정안 제출 결정",
+        "description": "더불어민주당과 정부, 대통령실은 제10차 고위당정협의회를 열고 비거주 1주택자에 대한 과세 강화 방안을 재검토하기로 했다. 여당의 요청에 따라 종부세와 양도세의 거주·비거주 차등 적용을 전면 재검토하고 실거주 예외 인정 범위를 확대하는 수정안을 마련하기로 공감대를 형성했다. 정부와 당은 전근이나 취학 등 불가피한 사유로 인한 거주 불능 건에 대해 예외를 넓히는 보완 수정안을 1차적으로 제출할 계획이다. 이를 통해 2026 세제개편안 발표 이후 고조된 비거주 1주택자의 세 부담 반발을 완화한다는 방침이다.",
+        "source_ids": [
+          "SRC-001",
+          "SRC-003",
+          "SRC-004"
+        ],
+        "confidence": "high"
+      },
+      {
+        "sequence": 3,
+        "event_id": "EVT-003",
+        "event_at": "2026-08-24",
+        "headline": "당정, 비거주 1주택 세제 수정안 세부 조율 착수 및 용산공원특별법 표결 앞두고 협의 본격화",
+        "description": "고위당정협의회 결정에 따라 1주택자 거주·비거주 세제 차등 완화 방향을 둘러싼 당정 간 세부 조정 절차가 본격 진행되고 있다. 종부세 기본공제 통일을 요구하는 당의 입장과 불가피한 사유로 예외를 제한하려는 기획재정부의 입장을 조정하는 논의가 이어지고 있다. 이와 함께 오는 26일 국회 본회의 표결을 앞둔 용산공원특별법 처리를 위해 서울시 등 관련 지자체 및 여야 간 협의도 가속화되는 중이다. 세제 개편 최종 조문 확정과 국회 본회의 처리 결과에 시장의 관심이 집중되고 있다.",
+        "source_ids": [
+          "SRC-005"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "source_index": [
+      {
+        "source_id": "SRC-001",
+        "grounding_id": "GND-003",
+        "title": "용산공원 본체·산재부지 개발 ‘투트랙’… 서울 공급 속도 낸다 [8·13 부동산 대책 이후]",
+        "publisher": "다음뉴스/헤럴드경제",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://v.daum.net/v/20260823183930861",
+        "published_at": "2026-08-23",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-003",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2xJ6_VxLSbevadfy7rHPrD_lQN3RINVyUzmSrvgNeAVXyl8wqebN2_OLmsHYHUaSK1Oer3mjtgvdCJOwH_OlDrRsGr2kkT28Bsi5pW0RyGY_xeAvfRVMdXwU-B8uaGBR1",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2xJ6_VxLSbevadfy7rHPrD_lQN3RINVyUzmSrvgNeAVXyl8wqebN2_OLmsHYHUaSK1Oer3mjtgvdCJOwH_OlDrRsGr2kkT28Bsi5pW0RyGY_xeAvfRVMdXwU-B8uaGBR1",
+          "resolved_url": "https://v.daum.net/v/20260823183930861",
+          "canonical_url": "https://v.daum.net/v/20260823183930861",
+          "page_title": "용산공원 본체·산재부지 개발 ‘투트랙’… 서울 공급 속도 낸다 [8·13 부동산 대책 이후]",
+          "http_status": 200,
+          "content_type": "text/html;charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-002",
+        "grounding_id": "GND-018",
+        "title": "‘캠프킴 2500가구’ 길 열린다…여야, 용산공원법 26일 처리 - 매일경제",
+        "publisher": "매일경제",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://www.mk.co.kr/news/politics/12132102",
+        "published_at": "2026-08-20",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-018",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkkTGFotEUUD9XgWWlr28t-AvG0wBllpeWLIIr54zTn0CiU2a8XLOb6dtREeiaUQNsOr67R5EtzyRdTZ29qO5I5XWqhVL1vRLXe8DKB3-zTdwo68Ae26DtSP8n1wUEDr-G4oVeK4A=",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkkTGFotEUUD9XgWWlr28t-AvG0wBllpeWLIIr54zTn0CiU2a8XLOb6dtREeiaUQNsOr67R5EtzyRdTZ29qO5I5XWqhVL1vRLXe8DKB3-zTdwo68Ae26DtSP8n1wUEDr-G4oVeK4A=",
+          "resolved_url": "https://www.mk.co.kr/news/politics/12132102",
+          "canonical_url": "https://www.mk.co.kr/news/politics/12132102",
+          "page_title": "‘캠프킴 2500가구’ 길 열린다…여야, 용산공원법 26일 처리 - 매일경제",
+          "http_status": 200,
+          "content_type": "text/html;charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-003",
+        "grounding_id": "GND-016",
+        "title": "당정 \"1주택 비거주자, '불가피 사유' 거주 인정 확대 공감대\"",
+        "publisher": "MBC 뉴스",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://imnews.imbc.com/news/2026/politics/article/6846662_36911.html",
+        "published_at": "2026-08-23",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-016",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLVLCBcaEZAULP6lnGtNX6Xvt9FqFwB-VHeRa84xkDUKcuxCUxPoxefZWFjO7kjWjpxWUG_Zq7jPspW_vNv2ywv3QJF5QQBI4lSda4dtMEQjpIjb8aCggzIxrLyMBBphwhNjoyBY1lnMvgCiFrR1REqZdXMxWOXGxtmLBM6UW5og==",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLVLCBcaEZAULP6lnGtNX6Xvt9FqFwB-VHeRa84xkDUKcuxCUxPoxefZWFjO7kjWjpxWUG_Zq7jPspW_vNv2ywv3QJF5QQBI4lSda4dtMEQjpIjb8aCggzIxrLyMBBphwhNjoyBY1lnMvgCiFrR1REqZdXMxWOXGxtmLBM6UW5og==",
+          "resolved_url": "https://imnews.imbc.com/news/2026/politics/article/6846662_36911.html",
+          "canonical_url": "https://imnews.imbc.com/news/2026/politics/article/6846662_36911.html",
+          "page_title": "당정 \"1주택 비거주자, '불가피 사유' 거주 인정 확대 공감대\"",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-004",
+        "grounding_id": "GND-022",
+        "title": "당정, 비거주 1주택 과세 수정 … 종부세 차등적용 전면 재검토 - 매일경제",
+        "publisher": "매일경제",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://www.mk.co.kr/news/politics/12134210",
+        "published_at": "2026-08-23",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-022",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjBM93ajx5XtgknaXmYaLML9NQC6XWI1-6VLVUv8wEgSC7VTzp68Wq7USVdEW74_gX5o3cDVHVDKbLuS-z9iwESB3LdKnVMRwSIttwg0nopeWTQ_fkkYv8L_AVUjHfsgVXy16cAlc=",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjBM93ajx5XtgknaXmYaLML9NQC6XWI1-6VLVUv8wEgSC7VTzp68Wq7USVdEW74_gX5o3cDVHVDKbLuS-z9iwESB3LdKnVMRwSIttwg0nopeWTQ_fkkYv8L_AVUjHfsgVXy16cAlc=",
+          "resolved_url": "https://www.mk.co.kr/news/politics/12134210",
+          "canonical_url": "https://www.mk.co.kr/news/politics/12134210",
+          "page_title": "당정, 비거주 1주택 과세 수정 … 종부세 차등적용 전면 재검토 - 매일경제",
+          "http_status": 200,
+          "content_type": "text/html;charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      },
+      {
+        "source_id": "SRC-005",
+        "grounding_id": "GND-026",
+        "title": "[조태현의생생경제] 인터뷰 전문",
+        "publisher": "YTN",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://radio.ytn.co.kr/program/?f=2&id=110465&s_mcd=0206&s_hcd=15",
+        "published_at": "2026-08-24",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-026",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCJYBSm35nAofvjbhM5PdBIAApxN_RSi_3blxiapk4AcDt4yi3ftERLmBYNMoaomTINtKmvq9Asdj3v7tBn8xf-KvtxbQntJQVgdSaDZZaj_cDNZrwwl0R9sLSvGTCGAeixrV0iNyR3lRtQNBO3QFR3tQ_j503b2IFBlN6fQ==",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCJYBSm35nAofvjbhM5PdBIAApxN_RSi_3blxiapk4AcDt4yi3ftERLmBYNMoaomTINtKmvq9Asdj3v7tBn8xf-KvtxbQntJQVgdSaDZZaj_cDNZrwwl0R9sLSvGTCGAeixrV0iNyR3lRtQNBO3QFR3tQ_j503b2IFBlN6fQ==",
+          "resolved_url": "https://radio.ytn.co.kr/program/?f=2&id=110465&s_mcd=0206&s_hcd=15",
+          "canonical_url": "https://radio.ytn.co.kr/program/?f=2&id=110465&s_mcd=0206&s_hcd=15",
+          "page_title": "[조태현의생생경제] 인터뷰 전문",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      }
+    ],
+    "conflicting_information": [
+      "비거주 1주택 종부세 기본공제액 범위에 대해 여당(더불어민주당)은 거주·비거주 구분 전면 폐지 및 기본공제 통일을 요구하는 반면, 재정 당국(기획재정부)은 전근·취학 등 불가피한 사유에 한정한 예외 인정안을 주장하며 세부 조정 절차가 진행 중임.",
+      "용산공원 본체 부지 개발과 관련해 여야가 합의한 용산공원법 개정안은 산재 부지인 '캠프킴' 2,500가구 공급에 한정되어 있으며, 용산공원 본체 부지 주택지 전환에 대해서는 서울시 및 야당/여당 일각에서 강한 반대 입장을 유지하고 있음.",
+      "SRC-006: 동일 최종 URL 중복이라 SRC-002로 합쳤습니다."
+    ],
+    "missing_information": [
+      "8월 26일 예정된 국회 본회의에서 용산공원 조성 특별법 개정안의 최종 표결 결과 및 통과 여부",
+      "차관회의 및 국무회의를 거쳐 확정될 2026년 세제개편안 최종 수정 조문 내용",
+      "출처는 5개입니다. 권장 최소 6개보다 적습니다."
+    ],
+    "research_status": "partial",
+    "audit_status": "approved",
+    "prompt_version": "v1",
+    "google_search": {
+      "web_search_queries": [
+        "2026년 8월 주요 뉴스",
+        "2026년 8월 24일 뉴스",
+        "8월 24일 한국 경제 사회 이슈",
+        "8월 23일 8월 24일 주요 뉴스 보도자료",
+        "1주택자 종합부동산세 세제개편안 2026년 8월",
+        "부동산 세제개편안 더불어민주당 비거주 1주택자 2026년 8월",
+        "용산 캠프킴 부지 2026년 8월 23일 8월 24일",
+        "기획재정부 부동산 세제 개편 보도자료 2026",
+        "트럼프 한미연합훈련 축소 2026년 8월",
+        "한미연합훈련 5일만에 종료 트럼프 2026년 8월",
+        "미국 이란 경제적 D-Day 제재 2026년 8월",
+        "대이란 경제 제재 트럼프 2026년 8월",
+        "내년 820조 수퍼 예산 AI 7대 신성장동력 2026년 8월",
+        "기획예산처 820조 예산안 AI 첨단기술 2026년 8월",
+        "행안부 인공지능 친화적 보고서 전면 도입 보도자료 2026년 8월",
+        "세제개편안 비거주 1주택자 2026",
+        "고위당정협의회 세제개편안 1주택자 2026",
+        "용산공원특별법 캠프킴 2026",
+        "한미연합훈련 UFS 조기 종료 트럼프 2026",
+        "\"2026년 세제개편안\" 기획재정부 발표 8월 3일",
+        "\"1·29 부동산 대책\" \"2500가구\" 캠프킴",
+        "\"고위당정협의회\" \"비거주 1주택\" 8월 23일",
+        "\"을지 자유의 방패\" 트럼프 축소 지시 8월 16일"
+      ],
+      "search_entry_point_rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGx6qzQ5fBI7qowUiuoAmb27cVCbrOEMNQt7IQvP1_I7t58vuKXglGuC9yw_iFgupwig4bv4Q1ZXCK7laF31z8VHQ5uECdQ9JIBUrZ7GSIHlgizWn8uVppzfaZNYo-rcGBy54YZHUGBY-8JdjMOyc0qUzDe7d4un_OiESNzQqQLvcUaJv_HXaYEFAuHu-yHbEjuKIu3d4aUCVJJEs_SQu3N2wu33BlxIKMmntWScUD0lE7kh9ZLCD2OvmOENb9uOhzn9M_o7GDUaq8y62Tq09j7EkhfR4NEzEqBbVed8z6Zwb4dOsk_L9LnmykDlkK9dTh6BiZr8SzzEtO2L4boEmXcr6kf7Py_sHDjnT6BCjsntN6uQiRbQ8-04hVd\">기획예산처 820조 예산안 AI 첨단기술 2026년 8월</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWhhQ4sanDap23cI_pxNMXwV8yfqMlBBAI7edtRKAJjxKPxwDT5fFUEYdY9W2W6n0viK28rgmtfskX4FMMXawieUjpCwJVpi6voI3V4fl-Uz3jsyCDO8_eOES1fI1-GPqLmkIROqCghexgMbd-n4A5U0gpud_86UiFGDZsSX_JJ4hVpr5GFMJMGQr3L3ltCOuO1ZF7c9T-JmcHztvl0ztkLENR1bQrpTch09HoLfxB0EuXHDwwXyfNXSS7B76i6ratUy_z11JsT83wb1M4unxar-MeQFiP7GICT3K0_qf5dTCx_RovCq7goDGueUoz3MLOlqUH14h3eAcE9gE0icS8gxuB8IahTRWI6fRw_IQGUNJkf2PWc9316g6U-75h\">내년 820조 수퍼 예산 AI 7대 신성장동력 2026년 8월</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECj7MAU4Vl2A-uOywhRvqmqcZJPeWuQa9c1BrerkEjBIp0HpB703hRUU81Nj2Pt8tlAFBdSmwNh63VLwJ0ZYyYNEyGhQhuphIoZ4B5a6f2JXXBphaxLzLSaQ-XMUgqVf5Dq1HkDPkkwKEZaUnIIW3qTNX7E33V5GXYZX6didMeSBmegQkP1TXYVllSs89yU374orCNsMoswjleLE5pyXlNAmXGdIL7FKmYj9TCbuuQRLhstKMXPD3Cuc-qdlRKXQen8Q4fkjaA1UvBetR__1dl6EvsvsB91-uD7Y1QVVwrQ8pysQA3rUtF7XAYj2sgfRy2CQfr17gzU4fnUkcI4CSIgzeMjzgHy8VV1Oaq0jbeN1Q52NxNi9C0gOXJDGoeAdR-zht0oJCrxS7K5c5wprzeDjuwNkPFZKqG9satwnGiLTIE7TnjmzfALyEfVWYUmLm_C1-ntnxjFaxyPPpAJFTi\">행안부 인공지능 친화적 보고서 전면 도입 보도자료 2026년 8월</a>\n  </div>\n</div>\n<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp3uSHF5QeNKGmGuzkPjcIt_Z9GWbkauWgfx8qGqAnjfCMz9WEB7drk35fNGGdDKad6wgy125AKAhO2zV96P-zzo2rwSdyx5EfRNd1s6qTycHR2EEOxfjpHIEYWhrFBETDYl9c6spA9z60lbo15mHJsuu4tfG4bV8UV_YNSemG277nF8aHlqh9LWmnd8ysSNCUcyijQ3Iewmv4oByB4VhVCCOUahmZ_h_Ef9uKtFphSNUSSlgsOUIZVY-blJrD4cKIXu6aYQLRFoyu4h8PG-8svnpdOUpTaigRqjREx7dTbJjE5UewWhwbpGlYpymRdePC7SCN-UY4fvrnSYcpt6WGs1t7XQp6KQpftv7Z8MQDS0iTCfp8qQ==\">&quot;고위당정협의회&quot; &quot;비거주 1주택&quot; 8월 23일</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjOEGB1qqNlL3QMo2F4A70nnw2FVK4YkYlja9agkZQd3YUSURuYQthPSd1ao0b8UyGVGInzlbSe3B0NL1CMFn84Gd9QwE2ZmemE-1lDv5yjT-bSwZCHyW41Pat3hLUTRW1f-m_5JX-iXjvjWbM275TOC0NjCI5jvb85QQpbDcRbdi231Yvu7w81lCraYq6S2Nuo6jBABNLWish6k1G2l_MDIctiEZyAKFb_Eokr7MOtf4gUf3uRBK9qhLsA6xUrfjGEsabI_g6ew-a6tuDTi7vSesbZpadnbwzOzVbbkMne0yn0MVgyrTwGebH-hArpasS99Xes_vQopybJdshSKB9jKU-Pm7nJzLZCtJSsI8FChbvQPwC91EFSEJvCQ==\">&quot;2026년 세제개편안&quot; 기획재정부 발표 8월 3일</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSt6tKK7oBWtqtkDyiUqnvfp1w6bepzPYZ0Ttt0p2KRarud-gTCKamEF9a7noAI-qLRTN8VoX4Q0BAubL1_bl-iMwxeBAphb31-prX2aSyDQpgowLoRldhxkL3sidYw4wM3c-yO4HgNN6V-fT1XRCgqDXg5dZiifrx2lCP2gNXpjDMGroQH0jpZgvpfZTBJbxKhX1JM2tYOe5cj2UMIfVgZmS4vsvQ7xBNyqw11cMhwUWiSBOoaUmJKiuEmRKublsnt2eT1JUNk70jtEoIXiV0aGxNaj3ATQ1s3znIGkb11crKuYG4s7tHMvfA9j-eHjslfqINhhKIyXxjJw==\">&quot;1·29 부동산 대책&quot; &quot;2500가구&quot; 캠프킴</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOkXzZyHRMWt0nUt9CemUnBO0_vokPPMkt0vEMFBJy7s95pfsc2nyETPs_XuJ_9gv79Siqu6hFAFJK8zeVXcdLyz9h6mrt5KQ9xiGidBPXCM6poJmSOOPt3g3RbdWHJvm94k0_QDK8dwddvPwY_PFEZOiWEll9-E9IZnYKIkAI06Ex1uONJlluMH9WCA1ZRmiN1QnbofGm5eTTkzFx4wnrZE6bi_fbXjKar0z6nE3Eo95fEdsVrfozT7f1xZz8BmQkAY71StiQD_E_cZS_nmJxbR4JkChBvfqHSj3Ngx249c-PPWvCCmFLnrM2zEU2YncUrHeLNCtOhNxPOvX6DTn1V5bAHvBEaAedFFSf4EqEB2C_cbd36cQnJvqORKVyDBCaQx3y\">&quot;을지 자유의 방패&quot; 트럼프 축소 지시 8월 16일</a>\n  </div>\n</div>"
+    },
+    "performance": {
+      "research_seconds": 111.504,
+      "timeline_seconds": 10.495,
+      "audit_seconds": 6.807,
+      "total_seconds": 128.961,
+      "model_call_count": 3,
+      "generate_attempt": 1
+    },
+    "published_at": "2026-08-24T14:02:09.320000+09:00",
+    "updated_at": "2026-08-24T14:02:09.320000+09:00",
+    "updated_by_workflow_id": "WF-20260824-140000-468D",
+    "created_at": "2026-08-24T13:02:12.113000+09:00",
+    "last_merge_similarity": 0.85,
+    "last_merged_from_workflow_id": "WF-20260824-140000-468D"
+  },
+  {
+    "_id": "WF-20260824-131217-8AC8",
+    "workflow_id": "WF-20260824-131217-8AC8",
+    "schema_version": "news-timeline-fast-1.0",
+    "topic_id": "TOPIC-001",
+    "topic_title": "장애인 이동권 보장 및 예산 확충을 둘러싼 사회적 갈등과 제도 개선",
+    "topic_summary": "전국장애인차별철폐연대(전장연)의 출근길 지하철 시위가 정치권과의 타협안 도출로 전면 중단되었습니다. 이번 타협을 계기로 장애인 이동권 보장과 예산 반영, 제도 개선을 둘러싼 갈등이 새로운 국면에 접어들었습니다.",
+    "topic_section": "사회",
+    "selection_reason": "지속적인 이동권 시위 중단 선언이라는 최근 진화 계기를 바탕으로, 향후 지자체 예산안 심의 및 관련 법령 개정 등 후속 경과를 계속 흡수할 수 있는 거시적 서사 주제입니다.",
+    "current_status": {
+      "as_of": "2026-08-24",
+      "summary": "전장연이 출근길 지하철 시위 전면 중단을 공식 선언하면서 약 4년간 지속된 지하철 시위 국면이 전환점을 맞았습니다. 서울시의회 민주당 등 정치권과의 타협안 도출이 중단 배경으로 제시되었으며, 향후 이동권 예산 반영 및 제도 개선 이행 여부가 핵심 쟁점으로 남아있습니다.",
+      "source_ids": [
+        "SRC-001"
+      ],
+      "confidence": "high"
+    },
+    "timeline_status": "partial",
+    "timeline_start_at": "2026-08-24",
+    "timeline_end_at": "2026-08-24",
+    "timeline": [
+      {
+        "sequence": 1,
+        "event_id": "EVT-001",
+        "event_at": "2026-08-24",
+        "headline": "전장연, 정치권과 타협안 도출하며 출근길 지하철 시위 전면 중단 선언",
+        "description": "전국장애인차별철폐연대(전장연)가 기자회견을 열고 약 4년간 이어온 출근길 지하철 탑승 시위를 전면 중단한다고 공식 발표했습니다. 전장연 측은 서울시의회 민주당 등 정치권과의 타협안 도출을 이번 시위 중단의 주요 원인으로 밝혔습니다.",
+        "source_ids": [
+          "SRC-001"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "source_index": [
+      {
+        "source_id": "SRC-001",
+        "grounding_id": "GND-018",
+        "title": "[속보] 전장연 \"출근길 지하철 시위 전면 중단\" - 머니투데이",
+        "publisher": "머니투데이",
+        "source_type": "news_media",
+        "country": "KR",
+        "url": "https://www.mt.co.kr/society/2026/08/24/2026082411380522455",
+        "published_at": "2026-08-24",
+        "reliability": "high",
+        "url_validation": {
+          "grounding_id": "GND-018",
+          "grounding_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd6UrkGdXj5iOqOOkFslwr8RPzZkB12j3wO8Vm9iGWyBTuRaxSBXwIjbhbr6JOIRMAT1MEFCcY-S98Jk5rcFsy0N9j4q3rwvpxGFufedQquGotIpwTCcylfc_SuNdm4UXzjzmLj-d4bCxy71ttPBZzkcb6_UE=",
+          "original_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEd6UrkGdXj5iOqOOkFslwr8RPzZkB12j3wO8Vm9iGWyBTuRaxSBXwIjbhbr6JOIRMAT1MEFCcY-S98Jk5rcFsy0N9j4q3rwvpxGFufedQquGotIpwTCcylfc_SuNdm4UXzjzmLj-d4bCxy71ttPBZzkcb6_UE=",
+          "resolved_url": "https://www.mt.co.kr/society/2026/08/24/2026082411380522455",
+          "canonical_url": "https://www.mt.co.kr/society/2026/08/24/2026082411380522455",
+          "page_title": "[속보] 전장연 \"출근길 지하철 시위 전면 중단\" - 머니투데이",
+          "http_status": 200,
+          "content_type": "text/html; charset=utf-8",
+          "redirect_count": 1,
+          "title_similarity": 0.0,
+          "validation_status": "verified",
+          "accepted": true,
+          "validation_error": null
+        },
+        "openable": true
+      }
+    ],
+    "conflicting_information": [],
+    "missing_information": [
+      "시발점 및 과거 시위 경과 노드(2021년~2023년)를 직접 검증할 수 있는 Grounding ID가 인벤토리에 부족하여 해당 시점의 노드가 제한되었습니다.",
+      "사건은 1개입니다. 권장 최소 5개보다 적습니다.",
+      "출처는 2개입니다. 권장 최소 6개보다 적습니다."
+    ],
+    "research_status": "partial",
+    "audit_status": "approved_with_warnings",
+    "prompt_version": "v2",
+    "google_search": {
+      "web_search_queries": [
+        "오늘 뉴스 2026년 8월 24일",
+        "주요 뉴스 2026년 8월 24일 속보",
+        "뉴스 2026년 8월 23일 속보",
+        "속보 2026년 8월 24일",
+        "\"한미약품\" \"HM17321\" OR \"기술이전\" 신약",
+        "\"8.13 부동산\" OR \"용산공원 주택공급\"",
+        "\"전장연\" \"지하철 시위\" 시작 시발점",
+        "\"장미란\" 실종 제주 5월 12일"
+      ],
+      "search_entry_point_rendered_content": "<style>\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n</style>\n<div class=\"container\">\n  <div class=\"headline\">\n    <svg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/>\n      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/>\n    </svg>\n    <svg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/>\n      <path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/>\n      <path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/>\n      <path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/>\n      <path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/>\n    </svg>\n    <div class=\"gradient-container\"><div class=\"gradient\"></div></div>\n  </div>\n  <div class=\"carousel\">\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL-ZJGl_QLpMJLXh6UxC9Nw1ttTQBVMHtkNuHjlUFaOsRfz7oq1BRMcH_voAuWuprOxj-6afwT-629LEufeDFoJlwezZfw8d2YdIImcdZv1g1CJ-5keJGDMDNKYjRUyKtR7JTkJFjueMk1rh02PNLYI5coEr-LrTXl0EUgNvFRNyQC_TXuT13ZowSR8u10hnEiiz71I6AbJTdMXB45XxPSFMuECHog-mgaxlTmOYhMR-27UVidFSwT3uDNQno34KDeK9TK0muNJWZm_GCZ--PRuuxdHshIGo7EXMud3nBNhrcD\">&quot;장미란&quot; 실종 제주 5월 12일</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE721ClvLRE_Zf-SFR-p_7eSIr3MCzGpFdQaB0VyaqeejvgXXjkkSieKkgmDqUMUap52Lzek8a1CVWk4N9GDT9dKM9Wt7eCDsT2ma52dIN88le41kGcaILozWafpSOJh4F23U8xxMg4Lr6_hH_0ocSZfGUarOda97UoSkUL-Mi1OE-0708Y7trfNYd9EEcdXk1f_bw158nNzV_rq__tY7N0xmno0RA1wU3vKAiK996JMZtbXydt9gYg2hYkBi-Gxuu9QiA60bemF7YWbYYPa3xyDJMRiX88nQrEKXRN8waQdsqUMJGRe3qHLsUMJWCNWQMI4gX9yXQWmYeFH565\">&quot;8.13 부동산&quot; OR &quot;용산공원 주택공급&quot;</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3h9F0YgADg4zgcERrvybSJJt6P2-uoHa-1i99-K962rHg1fHrMdyjobFGDYbUW0OMk622RRkb_yZg6TFfh6uFl8KLEFDr9E4A-e3-QTlFCKZTgXYePhnZGfgrKtyXiQ7_MYjD6dHmuO4efYX75n4QV9FMkMNPg6tv1ZcLCzbxf3x62pG41p02l_s3JtZoGuKMVawR6f71Me0ku-ES2BpxmCZpome6YkT4h9AAtBnf_s0BDjNUapJE4vJ3_i8Mtu35Z6MpRDkGr4C4STAL11xtWYu7L1iH5dd072oHFe9yXglT66ULb6rjKuHTdJd-MJ76Am9wmSTUzzyIKjWq\">&quot;한미약품&quot; &quot;HM17321&quot; OR &quot;기술이전&quot; 신약</a>\n    <a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSE2eKafIQu38fGkJTufjuMGgSXjSOe1dxtFq3mgGK_L7cUSKmbkKHHaNI16sR9I0sT7vx_ZZ5ZzIUaM2CAZrNDjeSMfpzXcUxXaE1RgL_muNq94Dhkm2jVSSC01D7UkRjMzLSDezrAqAfYttZZTXSnde8MiS_1v-CQJDiuWYY-Jpw2qFnxZ68W5okPk6wKUVyCL1ZjP2nbLUzQ9qMHTQ5WFK7OsANaT8PlSXm1K-JO45xUTmG3x27YDTMjabQigJUzx27uWUq93v9oUjlxyuodjlUZCRGyXL6TPDmPzmMXa7pH_ZlqMk3uvuuCEdQdXoRsVveyqRcfjn-EXyPAmOsT0rOmEgYEm_q\">&quot;전장연&quot; &quot;지하철 시위&quot; 시작 시발점</a>\n  </div>\n</div>"
+    },
+    "performance": {
+      "research_seconds": 14.035,
+      "timeline_seconds": 4.58,
+      "audit_seconds": 4.122,
+      "total_seconds": 121.331,
+      "model_call_count": 3,
+      "generate_attempt": 1
+    },
+    "published_at": "2026-08-24T13:12:40.389000+09:00",
+    "updated_at": "2026-08-24T13:12:40.389000+09:00",
+    "updated_by_workflow_id": "WF-20260824-131217-8AC8",
+    "created_at": "2026-08-24T13:12:40.389000+09:00"
   }
 ]

@@ -48,8 +48,8 @@ interface TimelineContextType {
 
 const TimelineDataContext = createContext<TimelineContextType | undefined>(undefined);
 
-const STORAGE_KEY_CLUSTERS = 'agy_news_timeline_clusters_v2';
-const STORAGE_KEY_WORKFLOWS = 'agy_news_timeline_workflows_v2';
+const STORAGE_KEY_CLUSTERS = 'agy_news_timeline_clusters_v3';
+const STORAGE_KEY_WORKFLOWS = 'agy_news_timeline_workflows_v3';
 
 export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [clusters, setClusters] = useState<ClusterTopic[]>(INITIAL_CLUSTERS);
@@ -80,7 +80,7 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
 
     // 1. Try direct client-side fetch (from user's browser in Korea, bypassing overseas Vercel IP blocks)
     try {
-      const batchSkips = [0, 6, 12, 18, 24];
+      const batchSkips = [0, 6, 12, 18, 24, 30];
       const promises = batchSkips.map(async skip => {
         const res = await fetch(`https://apidev-core.hankyung.com/timeline?limit=6&skip=${skip}`, {
           headers: { Accept: 'application/json' }
@@ -135,10 +135,12 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
 
   // Initial load
   useEffect(() => {
-    // Clear out old v1 storage if exists
+    // Clear out old v1/v2 storage if exists
     try {
       localStorage.removeItem('agy_news_timeline_clusters_v1');
       localStorage.removeItem('agy_news_timeline_workflows_v1');
+      localStorage.removeItem('agy_news_timeline_clusters_v2');
+      localStorage.removeItem('agy_news_timeline_workflows_v2');
     } catch (_) {}
 
     fetchLiveTimeline(false);
