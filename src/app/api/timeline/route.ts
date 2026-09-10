@@ -40,11 +40,11 @@ function getMonthsDifference(d1: string, d2: string): number {
 
 export async function GET() {
   try {
-    // Fetch in parallel batches of 6 to prevent Nginx 502 payload timeout
-    const batchSkips = [0, 6, 12, 18, 24];
+    // Fetch in parallel batches of 10
+    const batchSkips = [0, 10, 20, 30, 40, 50, 60, 70, 80];
     const fetchPromises = batchSkips.map(async skip => {
       try {
-        const res = await fetch(`${API_BASE_URL}/timeline?limit=6&skip=${skip}`, {
+        const res = await fetch(`${API_BASE_URL}/timeline?limit=10&skip=${skip}`, {
           method: 'GET',
           headers: { Accept: 'application/json' },
           next: { revalidate: 30 }

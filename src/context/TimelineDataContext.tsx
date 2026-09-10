@@ -48,8 +48,8 @@ interface TimelineContextType {
 
 const TimelineDataContext = createContext<TimelineContextType | undefined>(undefined);
 
-const STORAGE_KEY_CLUSTERS = 'agy_news_timeline_clusters_v4';
-const STORAGE_KEY_WORKFLOWS = 'agy_news_timeline_workflows_v4';
+const STORAGE_KEY_CLUSTERS = 'agy_news_timeline_clusters_v5';
+const STORAGE_KEY_WORKFLOWS = 'agy_news_timeline_workflows_v5';
 
 export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [clusters, setClusters] = useState<ClusterTopic[]>(INITIAL_CLUSTERS);
@@ -73,16 +73,16 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
     }, 3500);
   }, []);
 
-  // Bulletproof sync: Client direct fetch -> Server proxy -> Pre-bundled 30 items
+  // Bulletproof sync: Client direct fetch -> Server proxy -> Pre-bundled 78 items
   const fetchLiveTimeline = useCallback(async (isManual = false) => {
     setIsLoadingLive(true);
     let loadedData: ClusterTopic[] | null = null;
 
-    // 1. Try direct client-side fetch (from user's browser in Korea, bypassing overseas Vercel IP blocks)
+    // 1. Try direct client-side fetch (from user's browser in Korea / VPN)
     try {
-      const batchSkips = [0, 6, 12, 18, 24, 30];
+      const batchSkips = [0, 10, 20, 30, 40, 50, 60, 70, 80];
       const promises = batchSkips.map(async skip => {
-        const res = await fetch(`https://apidev-core.hankyung.com/timeline?limit=6&skip=${skip}`, {
+        const res = await fetch(`https://apidev-core.hankyung.com/timeline?limit=10&skip=${skip}`, {
           headers: { Accept: 'application/json' }
         });
         if (!res.ok) return [];
@@ -113,7 +113,7 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
       }
     }
 
-    // 3. Fallback to bundled INITIAL_CLUSTERS (which has all 30 real Hankyung topics pre-bundled)
+    // 3. Fallback to bundled INITIAL_CLUSTERS (which has all 78 real Hankyung topics pre-bundled)
     if (!loadedData || loadedData.length === 0) {
       loadedData = INITIAL_CLUSTERS;
     }
@@ -135,7 +135,7 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
 
   // Initial load
   useEffect(() => {
-    // Clear out old v1/v2/v3 storage if exists
+    // Clear out old v1/v2/v3/v4 storage if exists
     try {
       localStorage.removeItem('agy_news_timeline_clusters_v1');
       localStorage.removeItem('agy_news_timeline_workflows_v1');
@@ -143,6 +143,8 @@ export const TimelineDataProvider: React.FC<{ children: React.ReactNode }> = ({ 
       localStorage.removeItem('agy_news_timeline_workflows_v2');
       localStorage.removeItem('agy_news_timeline_clusters_v3');
       localStorage.removeItem('agy_news_timeline_workflows_v3');
+      localStorage.removeItem('agy_news_timeline_clusters_v4');
+      localStorage.removeItem('agy_news_timeline_workflows_v4');
     } catch (_) {}
 
     fetchLiveTimeline(false);
